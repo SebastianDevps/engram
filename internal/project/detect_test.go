@@ -688,6 +688,47 @@ func TestChildScan_SkipHidden(t *testing.T) {
 	}
 }
 
+// TestDetectProjectFull_WorkspaceRootConfigPinsProject asserts that a workspace
+// root (no git repo at root level, multiple child git repos) can pin a project
+// name by placing .engram/config.json at the workspace root. This bypasses the
+// ambiguous-project error that would otherwise fire for multiple child repos.
+// The user must run from the workspace root (where config.json lives) — the
+// config is checked at the exact cwd via readConfigAt, not via ancestor walk.
+func TestDetectProjectFull_WorkspaceRootConfigPinsProject(t *testing.T) {
+	workspace := t.TempDir()
+
+	// Place a config at the workspace root (this is the cwd for the call below).
+	configDir := filepath.Join(workspace, ".engram")
+	if err := os.MkdirAll(configDir, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(filepath.Join(configDir, "config.json"), []byte(`{"project_name":"my-workspace"}`), 0o644); err != nil {
+		t.Fatal(err)
+	}
+
+	// Create two child git repos — these would normally trigger ErrAmbiguousProject.
+	for _, name := range []string{"repo-alpha", "repo-beta"} {
+		child := filepath.Join(workspace, name)
+		if err := os.MkdirAll(child, 0o755); err != nil {
+			t.Fatal(err)
+		}
+		initGit(t, child)
+	}
+
+	// Call from the workspace root — config.json is at this exact directory.
+	res := DetectProjectFull(workspace)
+
+	if res.Error != nil {
+		t.Fatalf("expected no error with workspace config, got: %v", res.Error)
+	}
+	if res.Source != SourceConfig {
+		t.Errorf("Source = %q; want %q", res.Source, SourceConfig)
+	}
+	if res.Project != "my-workspace" {
+		t.Errorf("Project = %q; want %q", res.Project, "my-workspace")
+	}
+}
+
 // TestDetectProject_MatchesFull asserts DetectProject returns same as
 // DetectProjectFull.Project for non-ambiguous cases (REQ-307 backward-compat wrapper).
 func TestDetectProject_MatchesFull(t *testing.T) {

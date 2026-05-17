@@ -1192,17 +1192,21 @@ func cmdExport(cfg store.Config) {
 	outFile := "engram-export.json"
 	project := ""
 
-	// Two-pass: first scan for --project, then take first positional arg as outfile.
+	// Two-pass: first scan for --project / --project=value, then take first positional arg as outfile.
 	positional := []string{}
 	for i := 2; i < len(os.Args); i++ {
-		switch os.Args[i] {
-		case "--project":
+		arg := os.Args[i]
+		switch {
+		case arg == "--project":
 			if i+1 < len(os.Args) {
 				project = os.Args[i+1]
 				i++
 			}
+		case strings.HasPrefix(arg, "--project="):
+			// Handle --project=value form; arg[10:] strips the "--project=" prefix (10 chars).
+			project = arg[10:]
 		default:
-			positional = append(positional, os.Args[i])
+			positional = append(positional, arg)
 		}
 	}
 	if len(positional) > 0 {

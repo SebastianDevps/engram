@@ -3096,9 +3096,11 @@ func (s *Store) exportWithProjectScope(project string) (*ExportData, error) {
 	  FROM memory_relations`
 	relArgs := []any{}
 	if project != "" {
+		// AND (not OR): both endpoints must belong to the scoped project.
+		// OR would export relations that bridge two projects, leaking the other project's sync_ids.
 		relQuery += `
 		  WHERE source_id IN (SELECT sync_id FROM observations WHERE ifnull(project,'') = ?)
-		     OR target_id IN (SELECT sync_id FROM observations WHERE ifnull(project,'') = ?)`
+		   AND target_id IN (SELECT sync_id FROM observations WHERE ifnull(project,'') = ?)`
 		relArgs = append(relArgs, project, project)
 	}
 	relQuery += " ORDER BY id"
@@ -3218,13 +3220,15 @@ func (s *Store) Import(data *ExportData) (*ImportResult, error) {
 	// Import memory_relations (idempotent — sync_id is UNIQUE per schema).
 	// Relations reference observations by sync_id (text), not numeric id, so
 	// supersede chains remain intact even after id reassignment on re-import.
+	// NULLIF(?,''): export coerces NULL→"" via ifnull(); re-convert ""→NULL on import
+	// so that queries using `WHERE source_id IS NULL` find re-imported rows correctly.
 	for _, r := range data.MemoryRelations {
 		res, err := s.execHook(tx,
 			`INSERT OR IGNORE INTO memory_relations
 				(sync_id, source_id, target_id, relation, reason, evidence, confidence,
 				 judgment_status, marked_by_actor, marked_by_kind, marked_by_model,
 				 session_id, created_at, updated_at)
-			 VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+			 VALUES (?,NULLIF(?,''),NULLIF(?,''),?,?,?,?,?,?,?,?,?,?,?)`,
 			r.SyncID, r.SourceID, r.TargetID, r.Relation,
 			r.Reason, r.Evidence, r.Confidence,
 			r.JudgmentStatus, r.MarkedByActor, r.MarkedByKind, r.MarkedByModel,

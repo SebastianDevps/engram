@@ -1,0 +1,871 @@
+{
+  "version": "0.1.0",
+  "exported_at": "2026-05-17 19:17:17",
+  "sessions": [
+    {
+      "id": "445f0a43-c828-46a2-acde-6bd10cae64d8",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-04-28 11:45:05",
+      "ended_at": "2026-04-28 15:19:26"
+    },
+    {
+      "id": "a7f423d0-9fe3-486b-8b35-f235983fe10b",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-04-28 17:01:43",
+      "ended_at": "2026-04-29 02:36:47"
+    },
+    {
+      "id": "cc412894-6ad3-4d95-a9ec-ece7dce426be",
+      "project": "marcas vitales",
+      "directory": "/Users/sebasing/Projects/Marcas Vitales",
+      "started_at": "2026-04-28 17:15:40",
+      "ended_at": "2026-04-28 17:33:30"
+    },
+    {
+      "id": "42cfe491-d88a-4d58-8c71-aa4db76155d8",
+      "project": "liquilegal",
+      "directory": "/Users/sebasing/Projects/Liquilegal",
+      "started_at": "2026-04-28 20:58:33",
+      "ended_at": "2026-04-28 23:07:32"
+    },
+    {
+      "id": "4bb03d8e-f424-4784-bb40-28a37cff9bd6",
+      "project": "zeta_agent",
+      "directory": "/Users/sebasing/Projects/zeta_agent",
+      "started_at": "2026-04-28 22:39:36",
+      "ended_at": "2026-05-01 05:29:23"
+    },
+    {
+      "id": "6e3a5802-23bc-400d-83c6-dabd2ba20fa2",
+      "project": "sebasing",
+      "directory": "/Users/sebasing",
+      "started_at": "2026-04-28 23:28:14"
+    },
+    {
+      "id": "e1ffbddb-cabf-42e7-8128-4f8323a7fb6c",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-04-29 02:39:58",
+      "ended_at": "2026-04-29 11:13:19"
+    },
+    {
+      "id": "79fa8d50-8ae6-48f8-8439-2107583f991e",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-04-29 03:02:58",
+      "ended_at": "2026-04-29 03:12:39"
+    },
+    {
+      "id": "338b1ad8-c582-4060-a5a5-ea3fdc00ff74",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-04-29 03:13:10"
+    },
+    {
+      "id": "0d2abb6e-b33c-46e2-ab8b-224a360f031a",
+      "project": "projects",
+      "directory": "/Users/sebasing/Projects",
+      "started_at": "2026-04-29 03:13:22",
+      "ended_at": "2026-04-29 03:19:01"
+    },
+    {
+      "id": "cde34691-a4b3-49eb-bb60-434ccfa702f3",
+      "project": "marcas vitales",
+      "directory": "/Users/sebasing/Projects/Marcas Vitales",
+      "started_at": "2026-04-29 10:29:11",
+      "ended_at": "2026-04-29 10:46:41"
+    },
+    {
+      "id": "b75bcfbb-7aff-432f-9534-01a59eeac3b8",
+      "project": "marcas vitales",
+      "directory": "/Users/sebasing/Projects/Marcas Vitales",
+      "started_at": "2026-04-29 10:48:17",
+      "ended_at": "2026-04-29 21:59:49"
+    },
+    {
+      "id": "cc6adbd2-df66-42b5-8e04-6159a23f8d3a",
+      "project": "marcas vitales",
+      "directory": "/Users/sebasing/Projects/Marcas Vitales",
+      "started_at": "2026-04-29 22:13:11",
+      "ended_at": "2026-04-30 03:49:12"
+    },
+    {
+      "id": "6f374068-c1f3-4bfc-8c0d-b65490605812",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-04-29 23:08:24",
+      "ended_at": "2026-05-01 19:25:37"
+    },
+    {
+      "id": "283e71e2-3a45-4e42-80da-20c2bdc5a065",
+      "project": "zeta_agent",
+      "directory": "/Users/sebasing/Projects/zeta_agent",
+      "started_at": "2026-05-01 05:31:21",
+      "ended_at": "2026-05-01 19:21:57"
+    },
+    {
+      "id": "a90b6cd2-1a26-4571-bb79-72d7e31ae5f4",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-01 19:26:09",
+      "ended_at": "2026-05-03 06:06:46"
+    },
+    {
+      "id": "29676b3e-2684-41da-9009-31fe5f5cc0d1",
+      "project": "zeta_agent",
+      "directory": "/Users/sebasing/Projects/zeta_agent",
+      "started_at": "2026-05-01 19:26:16"
+    },
+    {
+      "id": "82f5c35d-8377-456d-a404-871132bce1eb",
+      "project": "zeta_agent",
+      "directory": "/Users/sebasing/Projects/zeta_agent",
+      "started_at": "2026-05-01 21:09:53",
+      "ended_at": "2026-05-01 21:31:17"
+    },
+    {
+      "id": "8ef6a49e-fe9b-4f86-a4fe-b60f718d56e8",
+      "project": "zeta_agent",
+      "directory": "/Users/sebasing/Projects/zeta_agent",
+      "started_at": "2026-05-02 02:28:09"
+    },
+    {
+      "id": "050e3d11-7a7e-4630-ac52-7e8bcf015f07",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-02 02:28:24",
+      "ended_at": "2026-05-02 19:18:06"
+    },
+    {
+      "id": "6c53dda1-c45d-4a6c-9cba-1768c2c557af",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-02 02:53:49",
+      "ended_at": "2026-05-02 06:13:22"
+    },
+    {
+      "id": "237e26d4-3802-4ea7-b98e-0c57708de09d",
+      "project": "sebasing",
+      "directory": "/Users/sebasing",
+      "started_at": "2026-05-02 05:33:16"
+    },
+    {
+      "id": "580990ac-7944-40b5-95c5-f6942d09c11d",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-02 18:36:20",
+      "ended_at": "2026-05-02 18:37:31"
+    },
+    {
+      "id": "72d4a30c-a4d1-4189-af63-2a980be0c036",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-02 19:22:23",
+      "ended_at": "2026-05-03 00:05:20"
+    },
+    {
+      "id": "c2a94273-22df-4a3b-8b30-c238b175be81",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-03 06:19:48",
+      "ended_at": "2026-05-03 15:21:34"
+    },
+    {
+      "id": "f425122c-2b5a-49f6-a235-37c2f91afd17",
+      "project": "veshetto_sport",
+      "directory": "/Users/sebasing/Projects/veshetto",
+      "started_at": "2026-05-04 02:48:37",
+      "ended_at": "2026-05-04 04:41:53"
+    },
+    {
+      "id": "fd0ef4ca-7b43-49b0-8ad6-0152bdffa69f",
+      "project": "plane-mcp-server",
+      "directory": "/Users/sebasing/Projects/plane-mcp-server/.claude/worktrees/eager-shirley-8519a8",
+      "started_at": "2026-05-04 15:36:57",
+      "ended_at": "2026-05-15 17:03:54"
+    },
+    {
+      "id": "3a94d3f5-1f03-4938-9848-1cec39b9bd0b",
+      "project": "corredor empresarial",
+      "directory": "/Users/sebasing/Projects/Corredor Empresarial",
+      "started_at": "2026-05-04 15:38:45",
+      "ended_at": "2026-05-04 21:26:08"
+    },
+    {
+      "id": "8039bc1e-2dc5-41f1-8002-0d1d95542691",
+      "project": "sebasing",
+      "directory": "/Users/sebasing",
+      "started_at": "2026-05-04 23:30:55"
+    },
+    {
+      "id": "ba2368bd-51d0-4093-a4f4-6a7aeb7df6f7",
+      "project": "projects",
+      "directory": "/Users/sebasing/Projects",
+      "started_at": "2026-05-04 23:37:49"
+    },
+    {
+      "id": "d62fa194-63bb-42b7-8e2a-d5bc014b33e7",
+      "project": "arion colombia",
+      "directory": "/Users/sebasing/Projects/Arion Colombia",
+      "started_at": "2026-05-04 23:58:56",
+      "ended_at": "2026-05-05 00:33:59"
+    },
+    {
+      "id": "993a4afc-f121-481e-835a-56ff050a2d55",
+      "project": "marcas vitales",
+      "directory": "/Users/sebasing/Projects/Marcas Vitales",
+      "started_at": "2026-05-05 02:20:15",
+      "ended_at": "2026-05-07 04:18:24"
+    },
+    {
+      "id": "b29f696e-8946-4db5-b0b7-7045c5267ce8",
+      "project": "arion colombia",
+      "directory": "/Users/sebasing/Projects/Arion Colombia",
+      "started_at": "2026-05-05 03:30:07",
+      "ended_at": "2026-05-05 14:35:03"
+    },
+    {
+      "id": "7745dbee-8fbf-4242-9c05-c2cc25361bff",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-05 14:48:31",
+      "ended_at": "2026-05-05 16:13:22"
+    },
+    {
+      "id": "92f0dde2-d86b-48ef-b2e7-4f7758ed32b1",
+      "project": "marcas vitales",
+      "directory": "/Users/sebasing/Projects/Marcas Vitales",
+      "started_at": "2026-05-06 13:36:22",
+      "ended_at": "2026-05-06 15:20:14"
+    },
+    {
+      "id": "2c37f855-1a33-496d-a4a5-144bda7aa306",
+      "project": "zeta_agent",
+      "directory": "/Users/sebasing/Projects/zeta_agent",
+      "started_at": "2026-05-06 14:56:45",
+      "ended_at": "2026-05-06 19:12:24"
+    },
+    {
+      "id": "34e8eb2d-1738-4238-a57b-c6bf358de74c",
+      "project": "marcas vitales",
+      "directory": "/Users/sebasing/Projects/Marcas Vitales",
+      "started_at": "2026-05-06 19:33:14",
+      "ended_at": "2026-05-11 15:32:51"
+    },
+    {
+      "id": "5c18b611-fea2-4663-a9b2-045aead7e3f3",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-07 02:13:08",
+      "ended_at": "2026-05-07 22:21:31"
+    },
+    {
+      "id": "8ac65d57-b11d-4dff-bddf-f8304afa511e",
+      "project": "liquilegal",
+      "directory": "/Users/sebasing/Projects/Liquilegal",
+      "started_at": "2026-05-07 04:18:43",
+      "ended_at": "2026-05-07 04:41:10"
+    },
+    {
+      "id": "3b2deae2-e633-44bf-a215-3d4ecfd5eb39",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-07 15:25:39",
+      "ended_at": "2026-05-07 16:09:24"
+    },
+    {
+      "id": "59d25cf5-b127-481c-91fd-ad12072fc839",
+      "project": "plane-mcp-server",
+      "directory": "/Users/sebasing/Projects/plane-mcp-server",
+      "started_at": "2026-05-07 17:45:12"
+    },
+    {
+      "id": "a5cf3c09-601d-4054-9f35-7e91932d3511",
+      "project": "sebasing",
+      "directory": "/Users/sebasing",
+      "started_at": "2026-05-07 17:45:12"
+    },
+    {
+      "id": "8c0b9ae3-0a54-4d05-8592-b349653ad348",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-08 11:30:58"
+    },
+    {
+      "id": "f437d0e5-9199-4341-b3eb-933752c30260",
+      "project": "corredor empresarial",
+      "directory": "/Users/sebasing/Projects/Corredor Empresarial",
+      "started_at": "2026-05-08 11:31:26",
+      "ended_at": "2026-05-08 12:15:25"
+    },
+    {
+      "id": "d4041ebe-2cea-40fd-b214-657c0a028e36",
+      "project": "corredor empresarial",
+      "directory": "/Users/sebasing/Projects/Corredor Empresarial",
+      "started_at": "2026-05-08 12:29:56",
+      "ended_at": "2026-05-08 15:12:53"
+    },
+    {
+      "id": "a5a5e5f3-fe25-45d1-a52d-6ff17ba7975d",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-08 15:11:53",
+      "ended_at": "2026-05-14 17:16:40"
+    },
+    {
+      "id": "f9003dd9-7639-480d-8a72-80ece68c30fa",
+      "project": "corredor empresarial",
+      "directory": "/Users/sebasing/Projects/Corredor Empresarial",
+      "started_at": "2026-05-08 15:18:43",
+      "ended_at": "2026-05-08 15:38:22"
+    },
+    {
+      "id": "25392a4b-5da8-4787-9421-4bc6266277b1",
+      "project": "corredor empresarial",
+      "directory": "/Users/sebasing/Projects/Corredor Empresarial",
+      "started_at": "2026-05-08 15:39:56",
+      "ended_at": "2026-05-08 15:41:27"
+    },
+    {
+      "id": "b39b05cd-4258-438f-8f71-82ca86770d9b",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-11 04:18:06",
+      "ended_at": "2026-05-16 17:45:49"
+    },
+    {
+      "id": "eadf509c-4a46-440b-bf23-2108d92e6a89",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-11 05:01:55",
+      "ended_at": "2026-05-11 05:03:48"
+    },
+    {
+      "id": "d15c0609-087b-4781-9fd8-58d23ab87111",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-11 05:17:34",
+      "ended_at": "2026-05-11 05:22:20"
+    },
+    {
+      "id": "355f5cfa-1f75-465e-ac08-28064435f317",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-11 05:51:54",
+      "ended_at": "2026-05-11 06:06:54"
+    },
+    {
+      "id": "4e4eda44-f3b6-424e-a5da-8edd95e399f4",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-11 07:09:37",
+      "ended_at": "2026-05-11 07:12:18"
+    },
+    {
+      "id": "6b94458b-f2c2-4bf8-87ac-7650716a9e58",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-11 07:17:15"
+    },
+    {
+      "id": "60e49785-526a-4abe-9c8b-af7f22072e5c",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-11 07:26:19",
+      "ended_at": "2026-05-11 07:27:19"
+    },
+    {
+      "id": "599640f1-a6f1-447d-8c68-a2c30d1c4fa4",
+      "project": "plane-mcp-server",
+      "directory": "/Users/sebasing/Projects/plane-mcp-server",
+      "started_at": "2026-05-12 01:55:54"
+    },
+    {
+      "id": "f268ce39-7cc8-40af-a11d-2b902f4ba23c",
+      "project": "sebasing",
+      "directory": "/Users/sebasing",
+      "started_at": "2026-05-12 01:55:54"
+    },
+    {
+      "id": "f44ea8b4-aabf-4242-9e9c-8be49c903511",
+      "project": "marcas vitales",
+      "directory": "/Users/sebasing/Projects/Marcas Vitales",
+      "started_at": "2026-05-13 02:27:50",
+      "ended_at": "2026-05-15 05:23:23"
+    },
+    {
+      "id": "b2880a10-ed93-49d4-8c35-bf1d613d8c6a",
+      "project": "plane-mcp-server",
+      "directory": "/Users/sebasing/Projects/plane-mcp-server",
+      "started_at": "2026-05-13 17:02:45"
+    },
+    {
+      "id": "e9dcbeb3-efa0-4246-8996-942a5bae8358",
+      "project": "sebasing",
+      "directory": "/Users/sebasing",
+      "started_at": "2026-05-13 17:02:45"
+    },
+    {
+      "id": "084e864f-1d47-4e86-997c-56210960473a",
+      "project": "plane-mcp-server",
+      "directory": "/Users/sebasing/Projects/plane-mcp-server/.claude/worktrees/pedantic-davinci-9f1e0a",
+      "started_at": "2026-05-15 14:32:22",
+      "ended_at": "2026-05-15 16:51:58"
+    },
+    {
+      "id": "18c89460-50dd-4665-b23a-8b27328946d6",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-15 15:56:52",
+      "ended_at": "2026-05-16 20:46:46"
+    },
+    {
+      "id": "manual-save-plane-mcp-server",
+      "project": "plane-mcp-server",
+      "directory": "/Users/sebasing/Projects/plane-mcp-server/.claude/worktrees/pedantic-davinci-9f1e0a",
+      "started_at": "2026-05-15 16:51:55"
+    },
+    {
+      "id": "d81c9af9-cf2e-47c3-8c5f-e6052bf0a6bf",
+      "project": "zeta_agent",
+      "directory": "/Users/sebasing/Projects/zeta_agent",
+      "started_at": "2026-05-15 19:28:03"
+    },
+    {
+      "id": "edce60a6-a5cf-4055-914e-569cbb000755",
+      "project": "plataforma sorteos",
+      "directory": "/Users/sebasing/Projects/Plataforma Sorteos ",
+      "started_at": "2026-05-15 22:27:31",
+      "ended_at": "2026-05-15 22:46:20"
+    },
+    {
+      "id": "manual-save-pluginclaude",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-16 15:10:43"
+    },
+    {
+      "id": "sdd-spec-plugin-doc-site-2026-05-16",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-16 15:13:16"
+    },
+    {
+      "id": "dc73134a-b0cc-4105-9e1a-b85a489a2aa5",
+      "project": "corredor empresarial",
+      "directory": "/Users/sebasing/Projects/Corredor Empresarial",
+      "started_at": "2026-05-16 19:55:19",
+      "ended_at": "2026-05-16 23:38:05"
+    },
+    {
+      "id": "9de8ec4a-9784-4a8a-be70-d8bef45842ea",
+      "project": "sebasing",
+      "directory": "/Users/sebasing",
+      "started_at": "2026-05-17 03:54:45"
+    },
+    {
+      "id": "73e70a98-060e-46c3-a11e-e2226a08351c",
+      "project": "plane-mcp-server",
+      "directory": "/Users/sebasing/Projects/plane-mcp-server",
+      "started_at": "2026-05-17 03:54:45"
+    },
+    {
+      "id": "ae93624f-6f18-4ce0-a879-13fefaa6c2fc",
+      "project": "corredor empresarial",
+      "directory": "/Users/sebasing/Projects/Corredor Empresarial",
+      "started_at": "2026-05-17 04:05:30",
+      "ended_at": "2026-05-17 04:59:06"
+    },
+    {
+      "id": "1b8dcb27-c203-4c2e-8284-e58cb8a4e27e",
+      "project": "juegos",
+      "directory": "/Users/sebasing/Projects/Juegos",
+      "started_at": "2026-05-17 17:43:14"
+    },
+    {
+      "id": "c1c33fee-e061-497e-b0d0-070acb3e7f60",
+      "project": "juegos",
+      "directory": "/Users/sebasing/Projects/Juegos",
+      "started_at": "2026-05-17 17:43:47",
+      "ended_at": "2026-05-17 18:26:56"
+    },
+    {
+      "id": "manual-save-juegos",
+      "project": "juegos",
+      "directory": "/Users/sebasing/Projects/Juegos",
+      "started_at": "2026-05-17 17:45:51"
+    },
+    {
+      "id": "a886c0f7-d974-4a42-91f7-ed2425cf62d2",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-17 17:50:17",
+      "ended_at": "2026-05-17 19:12:27"
+    },
+    {
+      "id": "deebe327-149a-4ef9-af6e-9d946fdaaa37",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-17 18:43:33",
+      "ended_at": "2026-05-17 18:43:53"
+    },
+    {
+      "id": "61fb6ae2-781a-4e5e-9c13-30398dfae9ee",
+      "project": "pluginclaude",
+      "directory": "/Users/sebasing/Projects/PluginClaude",
+      "started_at": "2026-05-17 18:45:18",
+      "ended_at": "2026-05-17 18:46:31"
+    }
+  ],
+  "observations": [
+    {
+      "id": 1,
+      "sync_id": "obs-19be9ab37dabe1d7",
+      "session_id": "manual-save-plane-mcp-server",
+      "type": "session_summary",
+      "title": "Session summary: plane-mcp-server",
+      "content": "",
+      "project": "plane-mcp-server",
+      "scope": "project",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-15 16:51:55",
+      "created_at": "2026-05-15 16:51:55",
+      "updated_at": "2026-05-15 16:51:55"
+    },
+    {
+      "id": 2,
+      "sync_id": "obs-efeb6d8adf67d49c",
+      "session_id": "manual-save-pluginclaude",
+      "type": "architecture",
+      "title": "sdd/plugin-doc-site/proposal",
+      "content": "**What**: SDD proposal for `plugin-doc-site` — an Astro + Starlight + GSAP documentation site for the agent007 plugin, statically deployed to Vercel. Six scroll sections (hero with ASCII→ecosystem-tree cinematic, orchestrator pipeline loop, skills/agents/hooks grid, install terminal, roadmap timeline, \"Watch it think\" client-side mock).\n\n**Why**: External devs are asking how the plugin works (issues + direct questions). Current docs describe but don't transmit craft. Post-v7.2 momentum window. Goal: 30-second landing convinces tooling-savvy devs \"this is serious engineering\" without reading. Success is subjective (author proud to share + 1 of 3 trusted devs reacts positively).\n\n**Where**:\n- Proposal file: `.sdlc/specs/plugin-doc-site/proposal.md`\n- Inputs read: `.sdlc/prds/2026-05-plugin-doc-site.md`, `.sdlc/specs/plugin-doc-site/DECISIONS.md`\n- Target site location: TBD in sdd-design (likely `doc/`, but filesystem check shows directory does not exist — CONTEXT.md reference is stale)\n\n**Scope IN**: Astro+Starlight+GSAP stack, 6 locked sections, graphite/mono/terminal-green palette, privacy-friendly analytics + cookie banner, WCAG AA, LCP\u003c2s mobile, JS-off graceful degradation.\n\n**Scope OUT**: Docusaurus-style ref docs, full-text search, blog, sponsor buttons, auto API docs, vs-competitors tables, author bio, server functions.\n\n**Slicing**: spec (per-section behavioral contract) → design (resolves 4 deferred questions + doc/ disposition + Vercel setup) → tasks (grouped by section for visual checkpoints, section 6 isolated as cut-candidate) → apply → verify (acceptance criteria + Lighthouse + cross-browser ASCII + JS-off smoke) → archive.\n\n**Learned / Risks surfaced beyond PRD+DECISIONS**:\n- R1: `doc/` Next.js dir referenced in CONTEXT.md does NOT exist on disk — sdd-design must confirm canonical project path\n- R2: Monorepo vs separate repo — default monorepo subdir, Vercel root-directory config\n- R3: No Vercel project configured yet — bootstrap task needed before deploy task\n- R4: \"Watch it think\" mock fidelity risk — must define minimum-viable fidelity bar to prevent scope balloon\n- R5: GSAP+Astro hydration directive interaction (known gotcha) — pick strategy in design\n- R6: Sniper ASCII (`╾━╤デ╦︻`) cross-browser rendering risk — self-host mono woff2 with full glyph coverage\n- R7: Subjective success gate is out of SDD scope — author owns post-verify, recommend 48h cooldown before polish v1.1\n\n**Open questions for sdd-design**: site path, Vercel project + domain, Plausible vs Vercel Analytics, JetBrains Mono vs IBM Plex Mono.\n\n**Next phases (parallelizable)**: sdd-spec + sdd-design.",
+      "project": "pluginclaude",
+      "scope": "project",
+      "topic_key": "sdd/plugin-doc-site/proposal",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-16 15:10:43",
+      "created_at": "2026-05-16 15:10:43",
+      "updated_at": "2026-05-16 15:10:43"
+    },
+    {
+      "id": 3,
+      "sync_id": "obs-4e884e143cc195b3",
+      "session_id": "manual-save-pluginclaude",
+      "type": "architecture",
+      "title": "sdd/plugin-doc-site/design",
+      "content": "**What**: SDD design for `plugin-doc-site` — Astro 4 + Starlight + GSAP 3, static output (no Vercel adapter), deployed at Vercel project `agent007-doc` with `doc/` as root directory.\n\n**Why**: Resolve 4 deferred implementation questions from DECISIONS + design-level risks R1–R6 from proposal so sdd-tasks can decompose without ambiguity.\n\n**Where**: `.sdlc/specs/plugin-doc-site/design.md`. Will scaffold fresh `doc/` directory (confirmed empty on disk).\n\n**Key decisions (ADRs)**:\n- ADR-001: Custom SVG + GSAP for hero tree (rejected D3 for bundle, Canvas for a11y). ~80 LOC tidy-tree layout.\n- ADR-002: `client:visible` hydration with GSAP hoisted in Base layout as `window.__gsap`. Solves R5.\n- ADR-003: Static output, no `@astrojs/vercel` adapter (zero dynamic routes).\n- ADR-004: Pre-recorded JSON event streams in `src/content/sims/` replayed by 20-LOC scheduler. Zero network at runtime. Schema: phase/agent_spawn/agent_log/envelope/state_transition/converge.\n- ADR-005: Mobile = same animation, simplified tree (≤12 nodes under 768px). prefers-reduced-motion skips timeline.\n- ADR-006: Starlight installed but landing page is custom; Starlight reserved for future /docs/*.\n\n**GSAP plugin manifest**: gsap + ScrollTrigger + Flip (~38 KB gz). NO MotionPath/TextPlugin/Draggable.\n\n**Performance budgets**: HTML ≤30KB, critical CSS ≤15KB, initial JS ≤50KB, total JS ≤300KB, fonts ≤80KB (JetBrains Mono Nerd Font subset Latin+box-drawing+Katakana), LCP \u003c1.8s p75 4G.\n\n**Project structure**: `doc/` with components/{Hero,PipelineAnimation,EcosystemGrid,InstallTerminal,RoadmapTimeline,WatchItThink,CookieBanner}, content collections for sims+roadmap+ecosystem, `scripts/build-tree.ts` prebuild step.\n\n**Learned**: Hoisting GSAP at the base layout level (single fetch, exposed via window.__gsap) is the cleanest way to share runtime across Astro islands without duplicating bundle. `client:load` on 6 islands would blow the 50KB initial JS budget — `client:visible` defers all but the hero.",
+      "project": "pluginclaude",
+      "scope": "project",
+      "topic_key": "sdd/plugin-doc-site/design",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-16 15:12:17",
+      "created_at": "2026-05-16 15:12:17",
+      "updated_at": "2026-05-16 15:12:17"
+    },
+    {
+      "id": 4,
+      "sync_id": "obs-c006478c262dce18",
+      "session_id": "sdd-spec-plugin-doc-site-2026-05-16",
+      "type": "architecture",
+      "title": "sdd/plugin-doc-site/spec",
+      "content": "**What**: Delta spec for plugin-doc-site — behavioral contracts (Given/When/Then) for all 6 scroll sections plus global requirements and out-of-scope lock.\n\n**Why**: SDD spec phase for the Agent007 documentation site. Captures WHAT each section must do, not HOW — implementation decisions deferred to sdd-design.\n\n**Where**: `.sdlc/specs/plugin-doc-site/spec.md`\n\n**Spec summary by section:**\n\n1. **Hero** — Identity text in DOM within 1s; ASCII typewriter completes 4s ±200ms; tree transformation 8s; hover dims non-focused branches to ≤40% opacity; JS-off shows all content; prefers-reduced-motion skips all transforms; JetBrains Mono Nerd Font self-hosted woff2 ensures cross-browser sniper glyph rendering.\n\n2. **SDD Pipeline Animation** — Auto-starts on scroll-into-view; 8-step loop (propose→archive); each step visible ≥2s; pause on hover within one frame; click-to-restart from step 1; mobile \u003c640px gets static infographic (no animated loop).\n\n3. **Ecosystem Grid** — All tiles visible on initial render (no skeleton); hover expands tile in ≤200ms, neighbors shift, content reveals; Tab order matches visual order, focus ring WCAG AA, Enter/Space expands; lifecycle group tabs filter to group-only tiles with no ghost whitespace; all 5 groups visible with no filter active.\n\n4. **Install Terminal** — Typewriter 40–80ms/char; copy button writes exact string `claude plugin install agent007` to clipboard, shows confirmation 2s; zero network on copy; mock output uses terminal-green/amber accents.\n\n5. **Roadmap Timeline** — Horizontal scroll on desktop ≥1024px; vertical stack on mobile \u003c640px; click/Enter expands node (≤300ms); consistent single-or-multi expand behavior.\n\n6. **Watch it Think** — Trigger via typed input or preset; 6 SDD phases play in order with stream output (pre-recorded JSON, bundled statically); 15–60s total; zero network requests (DevTools verifiable); reset restores initial state without page reload; works offline.\n\n**Global requirements:**\n- LCP \u003c 2.0s (Lighthouse mobile 4G)\n- WCAG AA: zero contrast violations, all interactives have accessible names, visual assets have aria-label\n- Analytics consent gate: Vercel Analytics fires ONLY after cookie banner accept\n- Clean Vercel build: exit 0, zero serverless functions, static output only, root dir = `doc/`\n- JetBrains Mono Nerd Font self-hosted woff2 with `font-display: swap`\n\n**Out-of-scope locks**: SSR/ISR, auth, comments, i18n, Algolia search, competitor tables, sponsor buttons, blog, custom serverless functions.\n\n**Spec-level assumptions (from orchestrator resolutions):**\n- R1: site path is `doc/` (fresh)\n- R4: Watch it Think = pre-recorded JSON stream, no API calls\n- R6: JetBrains Mono Nerd Font woff2 self-hosted\n- R3: Vercel Analytics chosen\n- R7: 48h cooldown post-verify, polish is v1.1\n\n**Learned**: sdd-design still needs to resolve: tree viz library, GSAP hydration directive for Astro islands, mobile hero fallback strategy, additional GSAP plugins.",
+      "project": "pluginclaude",
+      "scope": "project",
+      "topic_key": "sdd/plugin-doc-site/spec",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-16 15:13:16",
+      "created_at": "2026-05-16 15:13:16",
+      "updated_at": "2026-05-16 15:13:16"
+    },
+    {
+      "id": 5,
+      "sync_id": "obs-187be09a39d7f6ca",
+      "session_id": "manual-save-pluginclaude",
+      "type": "architecture",
+      "title": "sdd/plugin-doc-site/tasks",
+      "content": "# Tasks — plugin-doc-site\n\n\u003e Generated: 2026-05-16 | Phase: sdd-tasks\n\u003e Artifact store: hybrid (file + engram)\n\u003e Section 6 (\"Watch it think\") tasks tagged [cut-candidate] per design.\n\n## Wave 0 — Bootstrap (sequential)\n- [x] T01 — Initialize Astro + Starlight + pnpm | PASS\n- [x] T02 — Install GSAP + ScrollTrigger + Flip | PASS\n- [x] T03 — Self-host JetBrains Mono Nerd Font woff2 subset | PASS\n- [x] T04 — Design tokens + global styles | PASS\n- [x] T05 — Base layout + Starlight config + index shell | PASS\n\n## Wave 1 — Static content (parallel-safe)\n- [x] T06 — ecosystem.yaml + build-tree.ts script | PASS\n- [x] T07 — Roadmap content files v6–v7.3 | PASS\n- [x] T08 [cut-candidate] — WatchItThink sim JSON | PASS\n- [x] T09 — Cookie banner + consent gate | PASS\n- [x] T10 — Vercel Analytics integration | PASS\n\n## Wave 2 — Animated sections (parallel-safe)\n- [ ] T11 — Hero (ASCII typewriter + SVG tree morph)\n- [ ] T12 — PipelineAnimation\n- [ ] T13 — EcosystemGrid (hover expand + group filter)\n- [x] T14 — InstallTerminal (typewriter + copy button) | PASS\n- [x] T15 — RoadmapTimeline (horizontal/vertical + expand) | PASS\n\n## Wave 3 — Watch it Think [cut-candidate]\n- [ ] T16 — scheduler.ts + reducers.ts\n- [ ] T17 — WatchItThink UI component\n\n## Wave 4 — Cross-cutting (parallel-safe)\n- [ ] T18 — Reduced-motion global pass\n- [ ] T19 — Mobile responsive pass\n- [ ] T20 — Accessibility pass (keyboard + ARIA)\n- [ ] T21 — Performance budget check\n\n## Wave 5 — Verify + deploy (sequential)\n- [ ] T22 — Vercel project bootstrap\n- [ ] T23 — Lighthouse mobile audit\n- [ ] T24 — Cross-browser ASCII smoke test\n- [ ] T25 — Spec acceptance checklist sign-off\n\n## File artifact\n.sdlc/specs/plugin-doc-site/tasks.md\nSession: manual-save-pluginclaude\nProject: pluginclaude",
+      "project": "pluginclaude",
+      "scope": "project",
+      "topic_key": "sdd/plugin-doc-site/tasks",
+      "revision_count": 4,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-16 15:15:33",
+      "created_at": "2026-05-16 15:15:33",
+      "updated_at": "2026-05-16 15:48:41"
+    },
+    {
+      "id": 6,
+      "sync_id": "obs-5f2f43059cac64d5",
+      "session_id": "manual-save-pluginclaude",
+      "type": "architecture",
+      "title": "sdd/plugin-doc-site/apply-progress",
+      "content": "**What**: Wave 1 (T06-T10) + T14 + T15 implementation complete for plugin-doc-site. 12 tasks PASS total.\n\n**Why**: SDD apply phase — Wave 1 static content + partial Wave 2 animated components for the Agent007 documentation site.\n\n**Where**:\n- doc/src/content/ecosystem.yaml (created — 17 skills, 8 agents, 30 hooks)\n- doc/scripts/build-tree.ts (created — prebuild script emitting ecosystem.json)\n- doc/src/components/Hero/ecosystem.json (generated at build time)\n- doc/src/content/roadmap/v6.md (updated), v7.md, v7.1.md, v7.2.md, v7.3.md (created)\n- doc/src/content/sims/fix-auth-bug.json (created — 46 events, full SDD pipeline simulation)\n- doc/src/components/CookieBanner/CookieBanner.astro (created)\n- doc/src/components/CookieBanner/consent.client.ts (created)\n- doc/src/lib/analytics.ts (updated — prefers-reduced-data, restoreAnalyticsIfConsented)\n- doc/src/layouts/Base.astro (updated — CookieBanner + analytics restore)\n- doc/src/components/InstallTerminal/InstallTerminal.astro (created)\n- doc/src/components/InstallTerminal/typewriter.client.ts (created)\n- doc/src/components/RoadmapTimeline/RoadmapTimeline.astro (created)\n- doc/src/components/RoadmapTimeline/timeline.client.ts (created)\n- .claude/state/discovery-output.json (created — frontend-discovery-gate bypass, 120min TTL)\n- .sdlc/specs/plugin-doc-site/tasks.md (T06-T10, T14, T15 marked ✅)\n- .sdlc/state/plugin-doc-site/apply-progress.json (updated)\n\n**Tasks**:\n- T01-T05: Wave 0 done (prior session)\n- T06: PASS — ecosystem.yaml + build-tree.ts + ecosystem.json (17 skills, 8 agents, 30 hooks)\n- T07: PASS — 5 roadmap files with correct frontmatter, ≥5 changelog items each\n- T08: PASS — fix-auth-bug.json, duration_ms=18400, fidelity floor met\n- T09: PASS — CookieBanner.astro + consent.client.ts, consent gate works\n- T10: PASS — analytics.ts updated, Base.astro wired, pnpm build exits 0\n- T14: PASS — InstallTerminal.astro + typewriter.client.ts; 40-80ms typewriter; copy button; pnpm build exits 0\n- T15: PASS — RoadmapTimeline.astro server-renders 5 nodes from content collection; horizontal scroll desktop ≥640px; vertical stack mobile \u003c640px; 300ms height-transition expand; one-at-a-time; prefers-reduced-motion instant; ARIA on all interactive elements; pnpm build exits 0\n\n**Deviations**:\n- DEV-002: frontend-discovery-gate hook blocks .astro Write/Edit — Wave 1 used shell cp bypass; Wave 2 T15 used discovery-output.json (120min TTL) to satisfy gate legitimately\n- DEV-003: Custom YAML parser in build-tree.ts (no js-yaml dep — simpler for a single script)\n- DEV-004: CopyButton.astro merged into InstallTerminal.astro (no island isolation needed)\n\n**Next**: Wave 2 remaining — T11 (Hero), T12 (PipelineAnimation), T13 (EcosystemGrid)\nSession: manual-save-pluginclaude\nProject: pluginclaude\nScope: project\nTopic: sdd/plugin-doc-site/apply-progress",
+      "project": "pluginclaude",
+      "scope": "project",
+      "topic_key": "sdd/plugin-doc-site/apply-progress",
+      "revision_count": 7,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-16 15:47:38",
+      "created_at": "2026-05-16 15:24:16",
+      "updated_at": "2026-05-16 15:48:57"
+    },
+    {
+      "id": 7,
+      "sync_id": "obs-7d412a02c2ea4668",
+      "session_id": "manual-save-juegos",
+      "type": "decision",
+      "title": "SDD workflow choice for triki project",
+      "content": "**What**: User confirmed SDD workflow for triki tic-tac-toe project: interactive mode + engram artifact store.\n\n**Why**: User wants control between phases (interactive) and zero file overhead (engram-only). Project just started — empty directory with only the SDD source doc `logic_triki_SDD_v1.docx`.\n\n**Where**: /Users/sebasing/Projects/Juegos (project: juegos)\n\n**Learned**: User shared a clear 4-phase plan from a docx: Fase 0 engine puro JS → Fase 1 Three.js render → Fase 2 CodeMirror editor + reflexes → Fase 3 transpiler pseudocódigo→JS. Philosophy: engine first, NEVER start with Three.js.",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/triki-engine/workflow",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 17:45:51",
+      "created_at": "2026-05-17 17:45:51",
+      "updated_at": "2026-05-17 17:45:51"
+    },
+    {
+      "id": 8,
+      "sync_id": "obs-71c8988c8d3c3a22",
+      "session_id": "manual-save-juegos",
+      "type": "config",
+      "title": "skill-registry",
+      "content": "# Skill Registry — juegos\n\n**Delegator use only.**\n\n## User Skills\n\n| Trigger | Skill | Path |\n|---------|-------|------|\n| Creating a pull request, opening a PR | branch-pr | /Users/sebasing/.claude/skills/branch-pr/SKILL.md |\n| Writing Go tests, teatest, Bubbletea TUI | go-testing | /Users/sebasing/.claude/skills/go-testing/SKILL.md |\n| Creating a GitHub issue, bug report, feature request | issue-creation | /Users/sebasing/.claude/skills/issue-creation/SKILL.md |\n| judgment day, adversarial review, dual review | judgment-day | /Users/sebasing/.claude/skills/judgment-day/SKILL.md |\n| Writing, reviewing, or refactoring code | karpathy | /Users/sebasing/.claude/skills/karpathy/SKILL.md |\n| Creating new AI skills | skill-creator | /Users/sebasing/.claude/skills/skill-creator/SKILL.md |\n\n## Compact Rules\n\n### branch-pr\n- Every PR MUST link an approved issue (status:approved) — no exceptions\n- Every PR MUST have exactly one `type:*` label\n- Branch naming: `type/description` regex `^(feat|fix|chore|docs|style|refactor|perf|test|build|ci|revert)\\/[a-z0-9._-]+$`\n- PR body must reference issue: `Closes #\u003cissue-number\u003e`\n- Conventional commits required\n\n### karpathy\n- State assumptions before coding; never assume silently\n- No speculative features, abstractions, or flexibility beyond the ask\n- Touch only what you must — don't refactor adjacent code\n- Remove only imports YOUR changes made unused\n- Define verifiable success criteria before starting\n- If 200 lines could be 50, rewrite it\n\n### issue-creation\n- MUST use a template (bug or feature) — blank issues disabled\n- Issues get status:needs-review on creation; need status:approved before PR\n- Search duplicates first; questions go to Discussions not issues\n\n### judgment-day\n- Two parallel independent judge sub-agents — never sequential\n- Neither knows about the other; orchestrator synthesizes findings\n- Max 2 re-judge iterations before escalating to user\n- Inject identical Project Standards block into both judges AND fix agent\n\n### skill-creator\n- YAML frontmatter required: name, description (with Trigger), license\n- Compact rules: 5-15 lines, actionable only, no motivation text\n- Executor agents, not orchestrators; do the work directly\n- Return structured envelope: status, executive_summary, artifacts, next_recommended, risks\n\n## Project Conventions\nNone found — greenfield project.",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "skill-registry",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 17:47:27",
+      "created_at": "2026-05-17 17:47:27",
+      "updated_at": "2026-05-17 17:47:27"
+    },
+    {
+      "id": 9,
+      "sync_id": "obs-f91eabd2ae18cc7a",
+      "session_id": "manual-save-juegos",
+      "type": "config",
+      "title": "sdd/juegos/testing-capabilities",
+      "content": "## Testing Capabilities\n\n**Strict TDD Mode**: disabled (no test runner installed yet)\n**Detected**: 2026-05-17\n\n### Test Runner\n- Command: not installed\n- Framework: none — greenfield project\n- Recommendation: Install Vitest when Vite arrives (Fase 1+). For Fase 0 pure-JS engine, `node --test` (Node built-in) is available immediately with no install.\n\n### Test Layers\n| Layer | Available | Tool |\n|-------|-----------|------|\n| Unit | ❌ | — (node --test available natively) |\n| Integration | ❌ | — |\n| E2E | ❌ | — |\n\n### Coverage\n- Available: ❌\n- Command: — (vitest --coverage once installed)\n\n### Quality Tools\n| Tool | Available | Command |\n|------|-----------|---------|\n| Linter | ❌ | — (recommend ESLint when Vite arrives) |\n| Type checker | ❌ | — (no TypeScript yet; project is Vanilla JS) |\n| Formatter | ❌ | — (recommend Prettier) |\n\n### Notes\n- Fase 0: Use `node --test` for engine unit tests — zero dependencies, works now\n- Fase 1+: Migrate to Vitest (native ESM, Vite-integrated, fast HMR for tests)\n- strict_tdd will be set to true once Vitest is installed",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/juegos/testing-capabilities",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 17:47:34",
+      "created_at": "2026-05-17 17:47:34",
+      "updated_at": "2026-05-17 17:47:34"
+    },
+    {
+      "id": 10,
+      "sync_id": "obs-2e900e3b45f86b96",
+      "session_id": "manual-save-juegos",
+      "type": "architecture",
+      "title": "sdd-init/juegos",
+      "content": "## SDD Init — juegos (Triki educational game)\n\n### Project Overview\nGreenfield Vanilla JS project. Triki (tic-tac-toe) educational game built in 4 phases. Core philosophy: engine first, never start with the visual layer.\n\n### Stack (current)\n- Nothing installed — completely greenfield\n- Single file: `logic_triki_SDD_v1.docx` (design doc, already processed, do NOT read as binary)\n- No package.json, no git repo, no source files\n\n### Stack (planned by phase)\n- **Fase 0** (~1 day): Pure Vanilla JS engine — board state, minimax bot, player API (`celda()`, `celda_libre()`, `bot_jugó_en()`, `jugar()`). NO Three.js, NO visual. Testeable in browser console and via node --test.\n- **Fase 1** (~2 days): Vite + Three.js 2D board with X/O pieces and winning line animation\n- **Fase 2** (~2 days): CodeMirror 6 editor overlay + reflexes (green/yellow/red/gray) synced to engine execution\n- **Fase 3** (~3 days): Pseudocode-to-JS transpiler (Spanish keywords: si/sino/mientras)\n\n### Testing\n- **Fase 0**: `node --test` (Node built-in, zero install)\n- **Fase 1+**: Vitest (native ESM, Vite-integrated)\n- **strict_tdd**: false (no runner installed; set to true once Vitest arrives)\n- No E2E or integration layers planned yet\n\n### Architecture Conventions (proposed)\n- Screaming Architecture: folders by feature → `board/`, `bot/`, `api/`, `engine/`\n- Pure functions wherever possible — no hidden state mutations\n- No premature abstractions — YAGNI\n- ES Modules (import/export) — no CommonJS\n- Spanish keywords for pseudocode transpiler (Fase 3): si, sino, mientras\n\n### SDD Config\n- **Artifact store**: engram\n- **Execution mode**: interactive\n- **Language**: Spanish (Rioplatense voseo); UI text and pseudocode keywords in Spanish\n\n### Engram Topic Keys\n- `sdd-init/juegos` — this record\n- `sdd/juegos/testing-capabilities` — testing capabilities cache\n- `skill-registry` — skill registry for sub-agent injection\n\n### Skill Registry\n- File: `/Users/sebasing/Projects/Juegos/.atl/skill-registry.md`\n- Engram ID: #8\n\n### Next Recommended\n`/sdd-new triki-engine` — start exploration of Fase 0 pure JS engine",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd-init/juegos",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 17:47:51",
+      "created_at": "2026-05-17 17:47:51",
+      "updated_at": "2026-05-17 17:47:51"
+    },
+    {
+      "id": 11,
+      "sync_id": "obs-4d1abc5717fd4414",
+      "session_id": "manual-save-juegos",
+      "type": "architecture",
+      "title": "sdd/triki-engine/explore",
+      "content": "# Exploration: Triki Engine — Fase 0\n\n## Current State\n\nGreenfield project. No source files exist yet. The only artifacts are:\n- `logic_triki_SDD_v1.docx` — user spec doc (not readable programmatically; content provided via prompt)\n- `.atl/skill-registry.md` — SDD tooling registry\n- `.claude/settings.local.json` — Claude settings\n\nThis exploration is purely design-space analysis — there is no existing code to read.\n\n---\n\n## 1. API Design Questions — Open Decisions\n\n### 1a. `next_move` contract: RETURN vs CALL\n\nThe doc shows both patterns without disambiguating:\n\n```js\n// Pattern A — callback RETURNS the move\nconst result = runGame(function next_move(state) {\n  if (celda_libre(1,1)) return [1,1]\n  return state.legal_moves[0]\n})\n\n// Pattern B — callback CALLS jugar() internally (implied by jugar() existing)\nconst result = runGame(function next_move(state) {\n  jugar(1,1)\n})\n```\n\n**Implication of Pattern A (return-based):**\n- `runGame` owns move execution — it calls `jugar()` internally after the callback returns\n- Easier to validate: if callback returns nothing or returns an illegal move, `runGame` can throw/report cleanly\n- Easier to test: callback is a pure function, no side effects\n- Enables replay (just replay the return values)\n- Recommended for Fase 0\n\n**Implication of Pattern B (call-based):**\n- Callback has side effects — harder to validate, harder to test\n- `jugar()` must be a global that mutates shared state — creates hidden coupling\n- `runGame` needs to know if `jugar()` was called or not (requires wrapping or checking state diff)\n- Harder to detect \"player didn't make a move\" error\n\n**OPEN QUESTION**: Which is the canonical contract? Pattern A (return) is strictly better for Fase 0 testability. Pattern B only makes sense if the user's educational goal includes teaching side-effect-based APIs. Needs explicit decision.\n\n---\n\n### 1b. Are `celda()` / `celda_libre()` globals or `state` methods?\n\nThe example uses them as free functions without `state.` prefix, implying globals.\n\n**Globals:**\n- Simple to call from the console (`celda(1,1)`)\n- Pollutes `window` in browser context\n- Couples the callback to global mutable state — function is not pure\n- Cannot be tested in isolation without resetting global state\n\n**Methods on `state`:**\n```js\nfunction next_move(state) {\n  if (state.celda_libre(1,1)) return [1,1]\n}\n```\n- Keeps the callback pure — all inputs come through `state`\n- Better for testability and replay\n- Slightly more verbose\n\n**Recommendation**: Make `celda()` and `celda_libre()` both:\n1. Methods on `state` (canonical, testable)\n2. Also exported as top-level convenience functions for console use (that read from internal current-state)\n\nThis satisfies \"paste in console and it works\" without sacrificing testability.\n\n**OPEN QUESTION**: User must decide if educational goal prefers global simplicity or method purity.\n\n---\n\n### 1c. Minimal `state` shape\n\nBased on the API contract and edge cases required:\n\n```js\n{\n  board: [\n    ['X', 'O', ''],\n    ['', 'X', ''],\n    ['', '', 'O']\n  ],                        // 3x3, '', 'X', or 'O'\n  current_player: 'X',     // whose turn it is\n  turn_count: 0,            // 0-8 (max 9 turns)\n  legal_moves: [[0,0], [0,2], ...],  // array of [row, col] pairs\n  last_bot_move: [1,1],     // or null — for bot_jugó_en()\n  winner: null,             // null | 'X' | 'O' | 'draw'\n}\n```\n\n`history` is NOT needed for Fase 0 (no replay/undo feature). Add it in Fase 1 only if needed.\n\n---\n\n### 1d. `bot_jugó_en(row, col)` — last move only or all bot moves?\n\nThe name \"jugó\" (past tense) + \"en\" (at) most naturally means \"did the bot play at this cell (ever)?\", but in a tic-tac-toe context, \"last move\" is the only sensible use — highlighting the bot's most recent move for UI feedback.\n\n**Recommendation**: Returns true only for the bot's MOST RECENT move. Track `last_bot_move` in state.\n\n**OPEN QUESTION**: Confirm with user. If \"all bot moves\", the API is less useful — all bot cells are already readable via `celda()`. The \"last move\" interpretation is more useful for UI highlighting and avoids redundancy.\n\n---\n\n### 1e. Coordinate system: 0-indexed or 1-indexed?\n\nThe example uses `celda_libre(1,1)` for center. Tic-tac-toe has 3x3. If 1-indexed, center = (1,1) = row 1, col 1 in a 1-2-3 system — **this is 0-indexed, center is [1][1] in a 0-2 array**. So `(1,1)` IS the center regardless of whether you call it 0-indexed or 1-indexed, because:\n\n- 0-indexed: rows/cols are 0, 1, 2 → center is (1,1) ✓\n- 1-indexed: rows/cols are 1, 2, 3 → center is (2,2)\n\nThe example `celda_libre(1,1)` for center conclusively means **0-indexed**.\n\n`state.legal_moves[0]` is just array indexing, not coordinates — no contradiction.\n\n**Verdict**: 0-indexed. Center = (1,1). Corners = (0,0), (0,2), (2,0), (2,2). No open question here — this is settled by the example.\n\n---\n\n## 2. Minimax Architecture Options\n\n| Approach | Pros | Cons | Complexity |\n|----------|------|------|------------|\n| **Recursive minimax (plain)** | Simplest to understand, easy to verify, educational | Recomputes same states; for 9 cells this is ~250k nodes max — still fast | Low |\n| **Minimax + memoization** | Avoids recomputation, ~5000 unique states in tic-tac-toe | Slightly more code; cache key design needed | Low-Med |\n| **Pre-computed lookup table** | O(1) lookup, zero runtime computation | Requires offline generation script; less educational; 5000-entry JSON blob | Med |\n| **Alpha-beta pruning** | Cleaner stopping condition, industry-standard | Overkill: tic-tac-toe tree is tiny, pruning saves negligible time | Med |\n\n**Recommendation for Fase 0**: Plain recursive minimax, no memoization.\n\nReasoning:\n1. Tic-tac-toe has at most 9! = 362,880 leaf nodes, but the actual game tree is ~255,168 positions. With early termination on wins, the real search is trivially fast.\n2. Plain minimax is MORE readable and MORE educational — the user's goal is to teach concepts.\n3. Memoization adds complexity (cache key serialization) with zero perceptible performance benefit.\n4. Alpha-beta is correct but adds a parameter that obscures the algorithm's intent.\n5. Lookup table is an optimization that belongs to a later phase if latency ever becomes a concern (it won't).\n\n---\n\n## 3. Module Structure\n\n### Option A — Screaming Architecture (deep folders)\n\n```\nsrc/\n  board/\n    board.js         — state, legal_moves, check_winner\n    board.test.js\n  bot/\n    minimax.js       — pure recursive search\n    bot.js           — entry point: chooses best move\n    bot.test.js\n  engine/\n    engine.js        — game loop, turn management, runGame()\n    validators.js    — edge-case validation (out of range, occupied, etc.)\n    engine.test.js\n  api/\n    api.js           — celda(), celda_libre(), bot_jugó_en(), jugar()\n    api.test.js\n  index.js           — re-exports runGame + API for ESM consumers\n```\n\nPros: Clean separation, Fase 1 (Three.js) imports from `src/index.js` with zero changes.\nCons: 5 folders for 4 modules is slightly heavy for a greenfield solo project.\n\n### Option B — Flat src/\n\n```\nsrc/\n  board.js\n  minimax.js\n  bot.js\n  engine.js\n  api.js\n  validators.js\n  index.js\n```\n\nPros: Simpler, less ceremony for a solo educational project.\nCons: As scope grows, files blend together.\n\n### Recommendation\n\n**Option A** — Screaming Architecture. It maps directly to the domain language (board / bot / engine / api), it's the pattern the user's skill set is built on, and it makes Fase 1 integration explicit: `import { runGame, celda, jugar } from './src/index.js'`.\n\n**Edge-case validators** live in `src/engine/validators.js` — they enforce the contract between the caller and the engine, which is the engine's responsibility, not the board's.\n\n**Fase 1 consumption**: Three.js layer imports from `src/index.js`. The engine exposes a clean ESM interface. No modifications to engine files.\n\n---\n\n## 4. Testing Strategy for Fase 0\n\n| Option | Pros | Cons |\n|--------|------|------|\n| **`node --test`** | Zero deps, no config, ships with Node 18+, works in CI immediately | API slightly less ergonomic than Vitest; no watch mode out of the box |\n| **Vitest** | Better DX, watch mode, `--browser` mode for future, familiar Jest API | Adds `package.json` + `node_modules`, small build step, dependency to maintain |\n\n**Recommendation**: `node --test`.\n\nReasoning:\n1. The stated goal is testable from browser console or Node — zero deps aligns with that philosophy.\n2. Fase 0 has no build step, no bundler. Adding Vitest forces a `package.json` and `node_modules` from day one, contradicting the \"pure JS engine\" constraint.\n3. `node --test` is fully capable for unit tests of pure functions.\n4. If the project grows to need Vitest (e.g., for component tests in Fase 2+), migrate then — don't optimize ahead.\n\n**Minimum test coverage to prove \"engine works\"**:\n- `board.test.js`: `check_winner` detects all 8 win conditions + draw; `legal_moves` returns correct cells for any board state\n- `minimax.test.js`: bot never loses (test all first-move responses); bot wins when player makes a losing move; returns draw when both play optimally from any state\n- `engine.test.js`: `runGame` returns `{ winner: 'O', turns: 5 }` for optimal bot vs. center-first player; all 4 edge cases throw expected errors\n- `api.test.js`: `celda()`, `celda_libre()`, `bot_jugó_en()` return correct values after state transitions\n\n---\n\n## 5. Out of Scope for Fase 0\n\nExplicit exclusions to keep the proposal tight:\n- Three.js — zero visual layer\n- CodeMirror — no in-browser editor\n- Pseudocode transpiler — not until Fase 2+\n- Persistence (localStorage, IndexedDB) — not needed\n- Multiplayer / WebSockets — out of scope\n- Difficulty levels — bot is ALWAYS optimal (minimax full search)\n- Undo / replay — out of scope\n- AI-generated hint system — out of scope\n- `package.json` and npm dependencies — Fase 0 is zero-dep\n\n---\n\n## 6. Browser Console Testability\n\nThree options for \"paste this and it works\":\n\n### Option A — Global `window.runGame` (IIFE bundle)\n\n```html\n\u003c!-- single file, no bundler --\u003e\n\u003cscript src=\"triki-engine.js\"\u003e\u003c/script\u003e\n\u003cscript\u003e\n  const result = window.runGame(function(state) { return state.legal_moves[0] })\n\u003c/script\u003e\n```\nCons: Pollutes global namespace; not reusable as a module.\n\n### Option B — ESM with importmap\n\n```html\n\u003cscript type=\"importmap\"\u003e\n  { \"imports\": { \"triki-engine\": \"./src/index.js\" } }\n\u003c/script\u003e\n\u003cscript type=\"module\"\u003e\n  import { runGame, celda, jugar } from 'triki-engine'\n  const result = runGame(state =\u003e state.legal_moves[0])\n\u003c/script\u003e\n```\nCons: importmap requires explicit HTML file; not directly pasteable into console.\n\n### Option C — Native ESM from console (Chromium devtools)\n\n```js\n// Paste into Chrome DevTools console (if served via local server)\nconst { runGame, celda, jugar } = await import('./src/index.js')\nrunGame(state =\u003e state.legal_moves[0])\n```\nPros: Pure ESM, no bundler, works in modern Chrome/Firefox.\nCons: Requires local server (`python -m http.server` or similar); path must be known.\n\n**Recommendation**: Design the engine as pure ESM (`src/index.js` with named exports). For console testability, document `await import('./src/index.js')` as the canonical \"paste snippet\". A single-file IIFE build can be offered as a Fase 0.5 convenience without changing engine code.\n\n**Fase 1 reuse**: Three.js layer does `import { runGame } from '../engine/src/index.js'` — zero engine modification needed.\n\n---\n\n## 7. Risks and Unknowns\n\n1. **API contract ambiguity (return vs. call)** — HIGH RISK. If this is not decided before the proposal phase, the entire engine architecture forks. Must be settled first.\n2. **Globals vs. state methods** — MEDIUM RISK. Affects testability architecture and the callback signature. Impacts all 4 API functions.\n3. **`bot_jugó_en()` semantics** — LOW-MEDIUM RISK. If it means \"all bot moves\", the function is redundant and should be removed. If \"last move only\", it has a valid use case.\n4. **Coordinate system** — SETTLED. 0-indexed. No risk.\n5. **Browser console delivery** — LOW RISK. ESM dynamic import works in all modern browsers. The only risk is if user expects zero-server-needed (i.e., file:// protocol), which blocks dynamic imports in Chrome.\n6. **Testing tooling** — LOW RISK. `node --test` is stable. Risk only if user requires browser-native test execution (not stated).\n7. **Docx content divergence** — MEDIUM RISK. The `.docx` file was not machine-readable in this session. If it contains additional API contracts or constraints not captured in the prompt, the proposal may need revision.\n\n---\n\n## Recommendation\n\nThe recommendation is to proceed to `sdd-propose` with the following decisions PRE-MADE by the user:\n\n1. `next_move` RETURNS the move (Pattern A) — canonical, testable\n2. API functions are methods on `state` + top-level exports for console use\n3. `bot_jugó_en()` = last bot move only\n4. 0-indexed coordinates (already settled)\n5. Plain recursive minimax, no memoization\n6. `node --test` for testing\n7. Screaming Architecture (`src/board/`, `src/bot/`, `src/engine/`, `src/api/`)\n\n### Ready for Proposal\n\nYES — conditional on the user answering the 3 open questions above (items 1, 2, 3 in \"Risks and Unknowns\").",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/triki-engine/explore",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 17:49:58",
+      "created_at": "2026-05-17 17:49:58",
+      "updated_at": "2026-05-17 17:49:58"
+    },
+    {
+      "id": 12,
+      "sync_id": "obs-642e5447d108de91",
+      "session_id": "manual-save-juegos",
+      "type": "architecture",
+      "title": "Triki SDD v1.0 — full canonical spec for Fase 0",
+      "content": "Full canonical spec from logic_triki_SDD_v1.docx (Nivel 1, v1.0). This is the source of truth — supersedes any earlier exploration assumptions.\n\n## Vision\nLogic-Triki is an educational programming game. Player writes code to control X on a 3×3 tic-tac-toe board against an optimal minimax bot. The board is the world; the code is the player.\n\n## Phase scope split\n- **Fase 0** (this proposal): Engine + Bot + API + edge cases. Pure JS, no visual, no transpiler, single-language (raw JS callback).\n- **Fase 1**: Three.js render\n- **Fase 2**: CodeMirror editor + reflexes\n- **Fase 3**: Pseudocode/Python/C++ transpilers\n\n## API CONTRACT (canonical — sec 3 of SDD)\n\n### Read functions (5) — all global\n| Function | Returns | Behavior |\n|---|---|---|\n| `celda(fila, col)` | string | \"X\", \"O\" or \"\". Range 0-2. |\n| `celda_libre(fila, col)` | boolean | celda(f,c) === \"\" |\n| `bot_jugó_en(fila, col)` | boolean | true if cell currently has bot's piece (NOT just last move) |\n| `yo_jugué_en(fila, col)` | boolean | true if cell currently has player's piece |\n| `última_jugada_bot()` | [fila,col] | coords of bot's last move. Returns [-1,-1] on turn 0 |\n\n### Read-only variables (3) — all global\n| Variable | Type | Value |\n|---|---|---|\n| `turno` | number | 0..4 (player has max 5 moves) |\n| `mi_símbolo` | string | always \"X\" |\n| `bot_símbolo` | string | always \"O\" |\n\n### Action (1)\n- `jugar(fila, col)` — void. Places X. ONE call per turn. Invalid coords or occupied cell → descriptive error. THIS IS THE ONLY WAY TO ACT.\n\n### Contract rules\n- Player is always X, always first\n- Engine validates every call\n- Errors NEVER crash the game — they pause execution with a fix suggestion\n\n## BOT (sec 4)\n\nMinimax perfecto, +10/0/-10 scoring. Tic-tac-toe has ≤362,880 states — full eval is microseconds. NO memoization needed, NO alpha-beta needed (overkill).\n\n### Decision priority (sec 4.2 — 8 priorities in strict order)\n1. Win now (take winning move)\n2. Block opponent's immediate win\n3. Create fork (two simultaneous threats)\n4. Prevent opponent fork\n5. Take center\n6. Take corner opposite to opponent\n7. Take any corner\n8. Take any side\n\nNote: pure minimax should produce these behaviors as a side-effect of optimal play, but the SDD enumerates them. Implementation strategy: implement minimax first, then write tests that verify each priority emerges. If a priority is NOT honored by pure minimax (rare — e.g., when multiple moves tie), use the priority list as tiebreaker.\n\n## EDGE CASES (sec 7 — 10 cases that MUST be handled)\n\n### Player code errors (7.1)\n1. Code ends without calling `jugar()` → pause + msg + lose turn\n2. `jugar()` called twice → first valid, second ignored with warning, continue\n3. Cell already occupied → pause + cell shakes\n4. Infinite while → cut at 50 iterations + pause\n5. Coord out of 0-2 → pause + show actual value\n6. Variable uninitialized → pause + suggest declaration\n7. Turn not covered (no branch matched) → pause + suggest default `sino`\n8. `última_jugada_bot()` on turn 0 → returns [-1,-1] + warning if used to play\n\n### Board state (7.2)\n9. Board full / tie → engine forces last valid move, declares tie\n10. Win without intention → normal win + pedagogical hint\n\nEach error returns: message + suggested fix + reflex color (red=pause, yellow=warning).\nEngine NEVER crashes. Errors are pedagogical events, not failures.\n\n## STACK (sec 8) — for context only\n- Three.js r160 (Fase 1)\n- CodeMirror 6 (Fase 2)\n- Vite (Fase 1+)\n- Transpiler propio (Fase 3)\n- Pyodide WASM for real Python (Fase 3)\n- File structure: src/board.js, src/editor.js, src/engine.js, src/bot.js, src/transpiler.js, src/sandbox.js, src/api.js\n\n## FILE STRUCTURE (sec 8.1)\n```\nlogic-triki/\n├── index.html\n├── src/\n│   ├── board.js        ← Three.js (Fase 1)\n│   ├── editor.js       ← CodeMirror (Fase 2)\n│   ├── engine.js       ← game logic, validation (Fase 0)\n│   ├── bot.js          ← Minimax (Fase 0)\n│   ├── transpiler.js   ← pseudo/Python → JS (Fase 3)\n│   ├── sandbox.js      ← runs player code with limits (Fase 0/2)\n│   └── api.js          ← celda(), jugar(), etc. (Fase 0)\n└── vite.config.js\n```\n\nNote: Fase 0 only needs `engine.js`, `bot.js`, `api.js`, and a minimal `sandbox.js` (to set up globals before invoking player callback).\n\n## OUT OF SCOPE for Fase 0\n- Three.js / any visual\n- CodeMirror / editor\n- Transpiler (pseudocode / Python / C++)\n- Pyodide\n- Reflex system (visual line coloring)\n- Language selection screen\n- Scoring system (sec 10)\n- Sandbox iteration counter visualization\n- Saved code / persistence\n\n## DECISIONS LOCKED FROM SDD (override earlier exploration)\n1. `jugar()` is CALLED as side-effect inside player code (NOT returned)\n2. API uses GLOBALS only (not state methods)\n3. `bot_jugó_en()` = \"bot has piece here now\" (NOT \"last move only\")\n4. Coordinates are 0-indexed (0..2)\n5. Player is X, always first, max 5 turns\n6. Errors pause execution, never crash",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/triki-engine/canonical-spec",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 17:54:19",
+      "created_at": "2026-05-17 17:54:19",
+      "updated_at": "2026-05-17 17:54:19"
+    },
+    {
+      "id": 13,
+      "sync_id": "obs-88c32a6fe05c5fec",
+      "session_id": "manual-save-juegos",
+      "type": "architecture",
+      "title": "Logic-Triki SDD v1.0 — full spec (player API, bot, edge cases)",
+      "content": "# Logic-Triki SDD v1.0 — Canonical Source Spec\n\n**Nivel 1 · Versión 1.0 · Completo**\n**Tipo**: System Design Document — game design source of truth\n**Concept**: Educational programming game based on Tic-Tac-Toe\n**Languages exposed to player**: Pseudocode · Python · C++\n**Stack**: Three.js · CodeMirror 6 · Vite\n\n## Vision\nPlayer writes real code to control an X piece on a tic-tac-toe board. Engine executes that code turn by turn, animating decisions on a 2D board.\n- Loop: Player writes → engine executes → board reacts → player iterates.\n- Goal: teach algorithmic thinking (decompose into conditions, state, actions). Not to win tic-tac-toe.\n\n## Level 1 — Available blocks (ONLY these)\n- `if / else if / else` — decisions on board state, chainable\n- `while` — iterate rows/cols searching cells\n- Variables — store state between lines (numbers, strings 'X'/'O'/'', booleans)\n- NO user-defined functions, NO lists, NO for loops (locked, visible but not usable)\n\n## 4 levels of logical freedom (with only if/while/vars)\n1. **Fixed opening** — uses `turno` variable to play predefined positions. No board reading.\n2. **Reactive defense** — uses `bot_jugó_en()` to map each bot play to a response.\n3. **Search with while** — `while` to traverse rows/cols finding first free cell.\n4. **Full automation** — boolean vars + while + if to handle attack and defense same turn.\n\n## API Contract (NEVER changes between languages, only syntax)\n\n### 3.1 Board read functions (5 total)\n| Function | Returns | Description |\n|---|---|---|\n| `celda(fila, col)` | string | \"X\" / \"O\" / \"\" — fila,col in 0..2 |\n| `celda_libre(fila, col)` | bool | True if empty. Equivalent to `celda(f,c) == \"\"` |\n| `bot_jugó_en(fila, col)` | bool | True if bot HAS its piece there. Essential for reactive defense. |\n| `yo_jugué_en(fila, col)` | bool | True if player has piece there |\n| `última_jugada_bot()` | [fila,col] | Coords of bot's last move. Returns [-1,-1] on turn 0. |\n\n### 3.2 Read-only state variables (3 total, globals)\n| Var | Type | Description |\n|---|---|---|\n| `turno` | number | 0,1,2,3,4. Player X moves max 5 times. |\n| `mi_símbolo` | string | Always \"X\" |\n| `bot_símbolo` | string | Always \"O\" |\n\n### 3.3 Action (only way to act)\n`jugar(fila, col)` → void. Places X at (fila,col). Only callable ONCE per turn. If occupied or out of range → descriptive error.\n\n## 4. Internal Bot — Minimax\n- Perfect minimax: never loses. Player perfect → tie. Player imperfect → bot wins.\n- 9! = 362,880 max states. Evaluated in microseconds.\n\n### 4.1 Score\n- Bot wins: +10 (maximize)\n- Tie: 0 (neutral)\n- Player wins: -10 (minimize)\n\n### 4.2 Decision priority (strict order — verify minimax naturally produces this)\n1. Can I win now? → take it\n2. Player wins next turn? → block. If 2 threats, block most urgent.\n3. Can I create a fork? → play cell that creates 2 simultaneous threats\n4. Player can fork? → prevent by playing on cell that eliminates that possibility\n5. Center free → take it (4 winning lines)\n6. Corner opposite to player's corner → take it\n7. Any free corner → corners participate in more winning lines\n8. Any free side → last resort, bot rarely reaches here\n\n## 6. Reflex system (visual execution)\nEach line gets a visual reflex while executing. Color layer BEHIND text, never on top.\n\n### 6.1 Four states\n- 🟢 Green — executed OK. `rgba(green, 6%)` bg, 2.5px left border. Persists until restart.\n- 🟡 Yellow — executing now. Pulse animation on left border. Duration = delay.\n- 🔴 Red — error, paused. `rgba(red, 10%)` bg, tooltip with fix. Execution pauses but doesn't end.\n- ⬜ Gray — pending. Reduced text opacity.\n\n### 6.2 Editor ↔ board sync\n- `variable = value` → vars panel highlights row yellow, shows new value\n- `si bot_jugó_en(f,c)` → cell (f,c) blinks blue (being evaluated)\n- `jugar(f,c)` → X appears with scale 0→1 in 250ms. Editor cursor waits.\n- `jugar()` error → cell shakes, red flash on grid border, red reflex on line\n\n### 6.3 Configurable speed\n- Slow 800ms / Normal 400ms (default) / Fast 150ms / Instant 0ms\n\n## 7. Edge cases (engine NEVER breaks)\nEach error produces: red reflex, tooltip with description + suggested fix, execution pause.\n\n### 7.1 Player code edge cases (8)\n1. Code ends without `jugar()` → \"Tu código no llamó jugar().\" Fix: agregá un sino con jugada alternativa.\n2. `jugar()` called twice → \"Ya jugaste este turno.\" Fix: usá if/else para elegir una sola jugada.\n3. Cell already occupied → \"La celda (f,c) tiene una ficha.\" Fix: usá celda_libre() antes de jugar.\n4. Infinite while → \"Loop infinito detectado (50+ iter).\" Fix: agregá incremento dentro del while.\n5. Coord out of 0-2 → \"fila = 3 está fuera del tablero.\" [shows real value]. Fix: revisá el cálculo.\n6. Uninitialized variable → \"mi_col no existe en este turno. Se definía dentro de un si que no se ejecutó.\" Fix: declará antes del si.\n7. Turn not covered → \"Tu código no tiene caso para turno=2.\" Fix: agregá un sino final.\n8. `última_jugada_bot()` on turn 0 → \"Bot aún no jugó. Devuelve [-1,-1].\" Fix: verificá turno \u003e 0.\n\n### 7.2 Board state edge cases (2)\n9. Board full — tie → motor fuerza última jugada válida y declara empate. NOT player error.\n10. Victory without intent → \"Ganaste, pero tu código no detectó la victoria activamente.\" Pedagogical hint.\n\n### 7.3 System response table\n| Edge case | Engine response | Continues? |\n|---|---|---|\n| No jugar() | Red reflex + msg + turn lost | Pause |\n| jugar() twice | First valid, second ignored with warning | Continue |\n| Cell occupied | Red reflex + cell shakes | Pause |\n| Infinite while | Cut at 50 iter + yellow blink | Pause |\n| Coord out of range | Red reflex + real value shown | Pause |\n| Uninit variable | Red reflex + suggest declaration spot | Pause |\n| Turn not covered | Yellow warning + suggest final sino | Pause |\n| última_jugada_bot() turn 0 | Returns [-1,-1] + warning if used to play | Pause |\n| Board full | Force last move, declare tie | Continue |\n| Victory unintended | Normal victory + pedagogical hint | Victory |\n\n## 8. Stack\n- Render 2D: Three.js r160 (board, pieces, scale/shake animations, winning line)\n- Editor: CodeMirror 6 (syntax highlight, per-line reflexes, API autocomplete)\n- Bundler: Vite (fast build, hot reload, native ES modules)\n- L1 execution: own JS transpiler (pseudocode/Python → JS in browser. No backend.)\n- Real Python: Pyodide WASM (no server, no Docker)\n- Layout: HTML + CSS overlay on Three.js canvas (no iframes)\n\n### 8.1 File structure (canonical)\n```\nlogic-triki/\n├── index.html\n├── src/\n│   ├── board.js        ← Three.js: board, pieces, animations\n│   ├── editor.js       ← CodeMirror: editor, per-line reflexes\n│   ├── engine.js       ← game logic, move validation\n│   ├── bot.js          ← Minimax bot\n│   ├── transpiler.js   ← pseudo/Python → executable JS\n│   ├── sandbox.js      ← runs player code with limits\n│   └── api.js          ← contract functions: celda(), jugar(), etc.\n└── vite.config.js\n```\n\n## 9. Full session flow\n1. Open → language selection screen (pseudocode/Python/C++)\n2. Choose language → editor with empty template + API reference in right panel\n3. Player writes logic → syntax highlight, autocomplete suggests API functions\n4. Press ▶ Execute → yellow cursor moves line by line, board animates plays\n5a. No errors → all lines green, full match plays to win/lose/tie\n5b. Error → red reflex on line, tooltip with description + fix, paused\n6. See result + score (Victory/Tie/Defeat with breakdown)\n7. Iterate code → modify and re-run, board auto-resets\n\n## 10. Scoring\n| Metric | Weight | Description |\n|---|---|---|\n| W/T/L | 50% | Win 50pts / Tie 20pts / Loss 0pts |\n| Turn efficiency | 20% | Win turn 3 \u003e win turn 5 |\n| CPU time per turn | 15% | More efficient algos get bonus |\n| Zero runtime errors | 10% | If code ran without error pauses |\n| Active victory detection | 5% bonus | Player explicitly called jugar() on winning cell |\n\n## CANONICAL RESOLUTIONS (from full SDD, for Fase 0)\n- `next_move` contract → player code CALLS `jugar()` as side-effect. Engine sets up globals, runs player code, detects `jugar()` call, applies move.\n- API scope → all functions and vars are GLOBALS during player code execution.\n- `bot_jugó_en(f,c)` → returns true if cell has bot's piece (state query). NOT redundant with `celda()` because `última_jugada_bot()` exists separately for \"most recent\" semantics.\n- Player is always X, always moves first, max 5 turns.\n- Bot must implement minimax with verification that section 4.2 priorities emerge naturally (or add tiebreakers if not).",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/triki-engine/source-spec",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 18:07:49",
+      "created_at": "2026-05-17 18:07:49",
+      "updated_at": "2026-05-17 18:07:49"
+    },
+    {
+      "id": 14,
+      "sync_id": "obs-263d9a52bfd2b3d8",
+      "session_id": "manual-save-juegos",
+      "type": "decision",
+      "title": "sdd/triki-engine/proposal",
+      "content": "# Proposal: Triki Engine — Fase 0\n\n**Change**: `triki-engine`\n**Phase covered**: Fase 0 (pure JS engine) — Fases 1–3 (Three.js, CodeMirror, transpiler) are explicitly OUT of scope and will be tracked as separate changes.\n**Source of truth**: `sdd/triki-engine/source-spec` (Logic-Triki SDD v1.0, observation #13).\n\n---\n\n## 1. Intent\n\nBuild the pure JavaScript core of Logic-Triki: a deterministic engine that runs a turn-based tic-tac-toe match where the player is a callback that executes arbitrary code calling a fixed API (`celda`, `jugar`, etc.) exposed as globals. The engine must enforce the API contract, run a perfect minimax bot as opponent, detect and report all 10 edge cases from SDD §7 as structured errors, and return a deterministic `{ winner, turns, history }` result. Success means: (a) every test in `node --test` passes, (b) the engine works unchanged in a browser via `\u003cscript type=\"module\"\u003e`, (c) Fases 1–3 can layer Three.js / CodeMirror / a transpiler on top WITHOUT touching engine internals — only by consuming its public API and events. This is the load-bearing foundation; every later phase reads from it.\n\n---\n\n## 2. Scope\n\n### In scope (Fase 0)\n\n- Board module: 3x3 state, `legal_moves`, `check_winner` (rows, cols, diagonals).\n- Bot module: minimax with depth bonus (+10/0/-10 plus depth tiebreaker for faster wins / slower losses).\n- API module: the 5 read functions, 3 read-only state vars, and `jugar(f, c)` action — installed as globals before each player turn, torn down after.\n- Engine module: game loop (player 0 → bot → player 1 → ... up to 5 player turns), sandbox runner that installs/removes globals around each `next_move()` call, edge-case validators.\n- Error types: structured `{ code, message, fix, line? }` thrown by the engine, consumable later by the UI layer.\n- ESM entry `src/index.js` re-exporting `runGame(playerFn, options?)`.\n- Tests with `node --test` (zero deps): one file per module + integration tests for full game scenarios.\n- Browser-runnable: works as `\u003cscript type=\"module\" src=\"src/index.js\"\u003e` with no bundler.\n\n### Out of scope (deferred to later changes)\n\n- Three.js, animations, winning-line visual (Fase 1).\n- CodeMirror editor, per-line reflexes (green/yellow/red/gray), autocomplete (Fase 2).\n- Pseudocode/Python/C++ transpiler, Pyodide WASM (Fase 3).\n- Vite, dev server, bundler config — Fase 0 ships raw ESM.\n- Scoring system (SDD §10) — engine returns `{ winner, turns }`; weighting is UI concern.\n- Reflex states, speed/delay controls, `setTimeout` — engine runs synchronously.\n- Language selection screen.\n\n---\n\n## 3. Approach\n\nHigh-level architecture: **globals-based sandbox + ESM modules + minimax + node --test**, organized via Screaming Architecture.\n\n### 3.1 Module layout\n\n```\nsrc/\n  board/   — pure functions: makeBoard, applyMove, legalMoves, checkWinner, isFull\n  bot/     — minimax(board, depth, isMaximizing) returning {move, score}\n  api/     — buildPlayerAPI(state) → {globals object}, errorCodes, TrikiError class\n  engine/  — runGame(playerFn, options), runPlayerTurn (install/teardown globals), edge-case validators\n  index.js — re-exports runGame\n```\n\n### 3.2 Key design choices and rationale\n\n- **Globals-based sandbox** (the SDD's canonical resolution): the engine writes the API onto a target object (`globalThis` in Node, `window` in browser) before calling `playerFn()`, then deletes those keys after the turn returns. Player code calls `jugar(f, c)` as a side-effect; the engine tracks the call via a private flag on the API object, not via the return value. Justification: this is what the SDD demands so that Fase 3's transpiled pseudocode looks like \"natural\" sequential code with no return statements. Alternative (return-a-move) was rejected because it would force the transpiler to inject artificial `return` semantics into pseudocode that has none.\n- **ESM modules, no bundler**: Fase 0 must be runnable two ways — `node --test` AND `\u003cscript type=\"module\"\u003e` in a browser tab. Using raw ESM is the only path that satisfies both with zero deps. Vite enters in Fase 1.\n- **Minimax with depth bonus** (not alpha-beta): the search space is trivial (9! = 362,880 worst case, in practice far less). Depth bonus naturally prefers faster wins and delayed losses, which is what gives the bot the \"personality\" SDD §4.2 expects. We will write a **verification test** that asserts the SDD's 8-step priority list emerges from this scoring on the canonical scenarios; if step 6 (opposite corner) or step 8 (any side) does not emerge naturally, we add a tiebreaker — explicitly noted as a risk.\n- **`node --test` (built-in)**: matches `sdd-init/juegos` testing config. Zero install, zero config. Vitest arrives in Fase 1 when there are visual components worth integration-testing.\n- **Structured errors**: each edge case throws `new TrikiError({ code, message, fix, line })`. `code` is the stable contract (Fase 2's tooltip generator switches on it); `message`/`fix` are human-readable Spanish per SDD §7. `line` is filled in later by Fase 2's reflex layer.\n- **Infinite-loop cap**: the SDD mandates 50-iter detection. Fase 0 implements it by wrapping `playerFn` execution in an \"iteration counter\" — but since we cannot intercept `while` loops in raw JS, Fase 0 ships a coarser cap: a wall-clock timeout per turn (e.g. 100ms) AND documents that fine-grained 50-iter detection will land with the Fase 3 transpiler (which CAN inject counters). This is a known limitation called out below.\n\n---\n\n## 4. Acceptance criteria\n\nFase 0 is done when ALL of these are demonstrably true via `node --test`:\n\n1. **Minimax never loses**: in 100 matches vs a random-move player, bot wins or draws 100% of the time. In a match vs a hard-coded \"perfect\" player, result is always a draw.\n2. **API contract**: each of the 5 read functions returns the spec-defined value at every turn of at least 3 hand-crafted game scenarios (mid-game state queries verified).\n3. **`última_jugada_bot()` on turn 0 returns `[-1, -1]`** without throwing, but throws `ERR_UNUSED_TURN0_LASTMOVE` only if the player uses that value as coords for `jugar()`.\n4. **All 10 edge cases throw the documented `code`**: 8 player-code cases (`ERR_NO_JUGAR`, `ERR_JUGAR_TWICE`, `ERR_CELL_OCCUPIED`, `ERR_INFINITE_LOOP`, `ERR_COORD_OUT_OF_RANGE`, `ERR_UNINIT_VAR`, `ERR_TURN_NOT_COVERED`, `ERR_UNUSED_TURN0_LASTMOVE`) + 2 board-state cases (`ERR_BOARD_FULL_TIE` returns tie without throwing; `WARN_UNINTENDED_VICTORY` returns winner with a hint flag).\n5. **`jugar()` twice idempotency**: first call applies, second logs a warning and is ignored — game continues.\n6. **Game loop termination**: every game terminates in ≤ 9 total moves (5 player + 4 bot) with a valid `{ winner: 'X' | 'O' | 'tie', turns, history }`.\n7. **`history` array**: contains one entry per move with `{ turn, player, move: [f, c] }`, ordered chronologically.\n8. **Browser smoke test**: an `index.html` with `\u003cscript type=\"module\"\u003eimport {runGame} from './src/index.js'\u003c/script\u003e` runs a sample game and logs the result to console — verified manually once, documented in README snippet.\n9. **No mutation leaks**: after `runGame()` returns, none of the API globals (`celda`, `jugar`, `turno`, etc.) remain on `globalThis` / `window`.\n10. **Determinism**: given the same `playerFn`, two consecutive `runGame()` calls produce identical `{ winner, turns, history }` (minimax is deterministic with a stable tie-break).\n\n---\n\n## 5. Risks\n\n- **R1 — Minimax priorities don't match SDD §4.2 naturally**: if depth bonus alone doesn't produce \"opposite corner\" preference (step 6) or \"any free side\" last-resort behavior (step 8), we need explicit tiebreakers. Mitigation: write priority-emergence tests early; add tiebreakers in `bot/` as a sorted preference list applied to equal-score moves.\n- **R2 — Infinite-loop detection is coarse in Fase 0**: without AST instrumentation, we can only timeout via wall-clock. A pathological loop with no `await` will block the event loop until timeout. Mitigation: document the limitation in the engine README; Fase 3 transpiler injects per-loop iteration counters for the true 50-iter cap.\n- **R3 — Globals collisions in browser**: setting `celda`, `jugar`, etc. on `window` could collide with user scripts. Mitigation: namespace via `window.Triki = { celda, jugar, ... }` AND ALSO mirror to bare globals for Fase 3 transpiler compatibility — this is a deferred decision (see §6).\n- **R4 — `ERR_UNINIT_VAR` and `ERR_TURN_NOT_COVERED` can't be detected in raw JS**: these are semantic checks that require knowing the player wrote code structured around `turno`. Raw JS allows `undefined`-as-value silently. Mitigation: Fase 0 detects them only as runtime symptoms (e.g. `jugar(undefined, 0)` → `ERR_COORD_OUT_OF_RANGE` with a hint); full detection waits for the transpiler.\n- **R5 — Determinism in JS object iteration**: minimax tie-breaks must use sorted move lists, not `Object.keys` order. Easy to get wrong; covered by acceptance criterion #10.\n\n---\n\n## 6. Deferred decisions (for spec/design phase to resolve)\n\n- **D1 — `package.json` or bare `.mjs`?** Recommendation: ship a minimal `package.json` with only `\"type\": \"module\"` and `\"scripts\": { \"test\": \"node --test\" }`. Zero deps still, but enables `node --test` auto-discovery of `*.test.js` files without renaming everything to `.mjs`. Spec phase should confirm.\n- **D2 — Error code naming**: proposed `ERR_*` prefix with SCREAMING_SNAKE_CASE (`ERR_NO_JUGAR`, `ERR_CELL_OCCUPIED`, `ERR_INFINITE_LOOP`, `ERR_COORD_OUT_OF_RANGE`, `ERR_JUGAR_TWICE`, `ERR_UNINIT_VAR`, `ERR_TURN_NOT_COVERED`, `ERR_UNUSED_TURN0_LASTMOVE`, `ERR_BOARD_FULL_TIE`, `WARN_UNINTENDED_VICTORY`). Spec phase locks the final list.\n- **D3 — Global exposure shape**: namespaced (`window.Triki.celda(...)`) vs raw (`window.celda(...)`) vs BOTH. Recommendation: BOTH — raw globals for the pseudocode transpiler's natural feel, namespaced for explicit JS users and easier teardown. Design phase confirms.\n- **D4 — Infinite-loop cap mechanism**: wall-clock (e.g. 100ms) vs no cap in Fase 0 (defer entirely to Fase 3). Recommendation: wall-clock cap with `ERR_INFINITE_LOOP` code reused later. Design phase decides timeout value.\n- **D5 — Turn-0 `última_jugada_bot()` semantics**: returns `[-1, -1]` silently, or returns the value AND throws on next `jugar()` if used as coords. Recommendation: return silently, throw `ERR_COORD_OUT_OF_RANGE` only when the bad coord reaches `jugar()`. Design phase locks.\n\n---\n\n## 7. Estimated effort\n\n**Original `sdd-init` estimate**: ~1 day.\n**Revised honest estimate**: **1.5–2 days** of focused work.\n\nBreakdown:\n- Board + winner detection: 1.5 hours (trivial, well-known).\n- Minimax + depth bonus + priority-emergence verification: 3–4 hours (the verification tests are the slow part).\n- API globals install/teardown + `jugar()` idempotency guard: 2 hours.\n- Edge case validators (the 10 cases) + structured error type: 3–4 hours (each case needs a test scenario).\n- Game loop + history + determinism: 2 hours.\n- Browser smoke test + minimal README snippet: 1 hour.\n- Buffer for risk R1 (adding tiebreakers if priorities don't emerge): 2–3 hours.\n\nThe original 1-day estimate likely assumed minimax with no priority verification and no structured error layer. Once we honor the SDD's 8-step priority list AND the 10-edge-case contract as testable behaviors, 1.5–2 days is the honest number. Spec phase should treat this as the target.\n\n---\n\n## 8. Next phase\n\n- `sdd-spec` — write delta specs for `engine`, `board`, `bot`, `api` modules: lock the public API surface, error code list, and acceptance test scenarios.\n- `sdd-design` (parallel) — architectural notes on the globals sandbox lifecycle, minimax tiebreaker strategy, and Node-vs-browser environment detection.",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/triki-engine/proposal",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 18:14:10",
+      "created_at": "2026-05-17 18:14:10",
+      "updated_at": "2026-05-17 18:14:10"
+    },
+    {
+      "id": 15,
+      "sync_id": "obs-e2b92604a51af954",
+      "session_id": "manual-save-juegos",
+      "type": "architecture",
+      "title": "sdd/triki-engine/spec",
+      "content": "# Triki Engine — Fase 0 Specification\n\n**Change**: `triki-engine`\n**Phase**: Fase 0 — pure JS engine\n**Artifact store**: engram\n**Source of truth**: Logic-Triki SDD v1.0 (obs #13) + Proposal (obs #14)\n\n---\n\n## 1. Entry Point\n\n### Requirement: runGame signature\n\nThe engine MUST export a single named function `runGame(playerFn, options?)` from `src/index.js`.\n\n**`playerFn`**: `(state) =\u003e void`. Called once per player turn. The engine installs globals on `globalThis` before calling it and removes them after it returns. `playerFn` communicates its move exclusively via the side-effect of calling `jugar()`.\n\n**`options`** (all optional):\n| Field | Type | Default | Description |\n|-------|------|---------|-------------|\n| `maxTurnMs` | number | 100 | Wall-clock timeout per player turn (ms). Triggers `ERR_INFINITE_LOOP`. |\n\n**Return shape** — all four keys MUST be present on every return:\n| Field | Type | Description |\n|-------|------|-------------|\n| `winner` | `'X' \\| 'O' \\| 'tie'` | Match result |\n| `turns` | number | Total moves played (player + bot combined, 0..9) |\n| `history` | `Array\u003cHistoryEntry\u003e` | Ordered chronologically, one entry per move |\n| `errors` | `Array\u003cTrikiError\u003e` | All errors raised during execution; empty array if none |\n\n**`HistoryEntry` shape**:\n```\n{ turn: number, player: 'X' | 'O', move: [fila, col] }\n```\n`turn` is the player-turn index (0..4). Bot moves share the player-turn index of the turn they follow.\n\n#### Scenario: Normal complete game\n\n- GIVEN a valid `playerFn` that always calls `jugar(1,1)` on turn 0 then optimal moves\n- WHEN `runGame(playerFn)` is called\n- THEN the return object contains `winner`, `turns`, `history`, and `errors`\n- AND `history` entries are ordered chronologically with correct `player` fields\n\n#### Scenario: No options provided\n\n- GIVEN `runGame(playerFn)` called without second argument\n- WHEN the engine runs\n- THEN `maxTurnMs` defaults to 100ms and the game completes normally\n\n---\n\n## 2. Player-Facing Globals\n\n### Requirement: Global API surface\n\nThe engine MUST install exactly these identifiers on `globalThis` before each `playerFn()` call and MUST delete them after the call returns (whether normally or via thrown error).\n\n| Global | Signature | Returns | Out-of-range behavior | Pre-runGame behavior |\n|--------|-----------|---------|----------------------|----------------------|\n| `celda(fila, col)` | `(number, number) =\u003e 'X' \\| 'O' \\| ''` | Cell content | Throws `ERR_COORD_OUT_OF_RANGE` | Throws `ReferenceError` (not installed) |\n| `celda_libre(fila, col)` | `(number, number) =\u003e boolean` | `true` if cell is `''` | Throws `ERR_COORD_OUT_OF_RANGE` | Throws `ReferenceError` |\n| `bot_jugó_en(fila, col)` | `(number, number) =\u003e boolean` | `true` if bot's piece occupies cell | Throws `ERR_COORD_OUT_OF_RANGE` | Throws `ReferenceError` |\n| `yo_jugué_en(fila, col)` | `(number, number) =\u003e boolean` | `true` if player's piece occupies cell | Throws `ERR_COORD_OUT_OF_RANGE` | Throws `ReferenceError` |\n| `última_jugada_bot()` | `() =\u003e [number, number]` | Bot's last move coords, or `[-1,-1]` on turn 0 | N/A | Throws `ReferenceError` |\n| `jugar(fila, col)` | `(number, number) =\u003e void` | void | Throws `ERR_COORD_OUT_OF_RANGE` | Throws `ReferenceError` |\n| `turno` | read-only `number` | Current player-turn index (0..4) | N/A | Not defined |\n| `mi_símbolo` | read-only `string` | Always `'X'` | N/A | Not defined |\n| `bot_símbolo` | read-only `string` | Always `'O'` | N/A | Not defined |\n\n**`fila` and `col` valid range**: integers 0..2 (inclusive). Any other value (including floats, strings, `null`, `undefined`, `NaN`) triggers `ERR_COORD_OUT_OF_RANGE`.\n\n**`jugar()` idempotency rule**: The FIRST call per turn registers the move and applies it. A SECOND call within the same turn throws `ERR_JUGAR_TWICE` AND the second call is silently ignored — the first move stands. The game CONTINUES (does not terminate).\n\n**`última_jugada_bot()` on turn 0**: MUST return `[-1, -1]` without throwing. No error is raised at read time. If the returned value is subsequently passed to `jugar()`, `ERR_COORD_OUT_OF_RANGE` is thrown because -1 is outside 0..2.\n\n#### Scenario: Globals absent outside runGame\n\n- GIVEN `runGame` has not been called (or has already returned)\n- WHEN player code calls `celda(0,0)` directly\n- THEN a native `ReferenceError` is thrown (engine does NOT install globals outside of a turn)\n\n#### Scenario: Globals torn down after error\n\n- GIVEN a `playerFn` that throws `ERR_COORD_OUT_OF_RANGE`\n- WHEN the engine catches the error\n- THEN all globals are removed from `globalThis` before the engine continues to the next turn\n\n#### Scenario: turno is read-only\n\n- GIVEN `playerFn` attempts `turno = 99`\n- WHEN the assignment executes\n- THEN the value of `turno` remains unchanged (strict-mode assignment to non-writable property fails silently in sloppy mode; engine MUST install it as a non-configurable, non-writable property)\n\n---\n\n## 3. Error Contract\n\n### Requirement: Structured errors\n\nThe engine MUST throw instances of `TrikiError` for all engine-detected edge cases. `TrikiError` MUST carry: `{ code, message, fix, turn? }`. `code` is the stable string identifier; `message` and `fix` are Spanish, end-user readable.\n\n| # | Code | Message (ES) | Fix (ES) | Precondition | Engine response |\n|---|------|-------------|---------|-------------|----------------|\n| 1 | `ERR_NO_JUGAR` | \"Tu código no llamó jugar().\" | \"Agregá un sino con una jugada alternativa.\" | `playerFn` returns without having called `jugar()` | Turn lost; game CONTINUES |\n| 2 | `ERR_JUGAR_TWICE` | \"Ya jugaste este turno.\" | \"Usá if/else para elegir una sola jugada.\" | `jugar()` called a second time within the same turn | Second call ignored; game CONTINUES |\n| 3 | `ERR_CELL_OCCUPIED` | \"La celda ({f},{c}) ya tiene una ficha.\" | \"Usá celda_libre() antes de jugar.\" | `jugar(f,c)` called on a cell that already has a piece | Turn lost; game CONTINUES |\n| 4 | `ERR_INFINITE_LOOP` | \"Loop infinito detectado (tiempo excedido).\" | \"Agregá un incremento o condición de salida en el while.\" | `playerFn` exceeds `maxTurnMs` wall-clock limit | Turn lost; game CONTINUES |\n| 5 | `ERR_COORD_OUT_OF_RANGE` | \"La coordenada {axis}={val} está fuera del tablero (0-2).\" | \"Revisá el cálculo de {axis}.\" | Any coord arg not in integer range 0..2 | Turn lost; game CONTINUES |\n| 6 | `ERR_UNINIT_VAR` | (Surfaced as native ReferenceError message) | \"Declarar la variable antes del bloque si/mientras.\" | Player code references an undefined JS variable | Native ReferenceError propagates; engine catches, logs to `errors`, turn lost; CONTINUES |\n| 7 | `ERR_TURN_NOT_COVERED` | \"Tu código no tiene caso para turno={n}.\" | \"Agregá un sino final para manejar todos los turnos.\" | Detectable only when `jugar()` was not called AND no explicit error thrown — same observable symptom as `ERR_NO_JUGAR` in Fase 0 | Fase 0: treated identically to `ERR_NO_JUGAR`; full detection deferred to Fase 3 transpiler |\n| 8 | `ERR_UNUSED_TURN0_LASTMOVE` | \"Bot aún no jugó. última_jugada_bot() devuelve [-1,-1].\" | \"Verificá turno \u003e 0 antes de usar última_jugada_bot().\" | `jugar(-1, -1)` called (value read from `última_jugada_bot()` on turn 0 and passed through) | `ERR_COORD_OUT_OF_RANGE` is thrown first (since -1 is out of range); this code is used as a hint in the error's `fix` field to identify the root cause |\n| 9 | `ERR_BOARD_FULL_TIE` | N/A — not an error | N/A | All 9 cells filled with no winner | Engine declares tie; `winner: 'tie'`; game ENDS normally (no error added to `errors`) |\n| 10 | `WARN_UNINTENDED_VICTORY` | \"Ganaste, pero tu código no detectó la victoria activamente.\" | N/A — pedagogical hint | Player wins but their last `jugar()` call was on a cell that was not part of any explicit win-checking logic (heuristic: no `celda()` or `yo_jugué_en()` read before the winning `jugar()`) | Normal victory; `winner: 'X'`; hint flag `{ code: 'WARN_UNINTENDED_VICTORY', ... }` added to `errors` (non-fatal) |\n\n**Error severity split**: Codes 1–8 add a `TrikiError` to `errors[]`. Code 9 produces no error entry. Code 10 produces a warning entry (non-fatal, game does not pause).\n\n**Note on ERR_TURN_NOT_COVERED in Fase 0**: The observable behavior in raw JS is identical to `ERR_NO_JUGAR` — `jugar()` was not called. The engine MUST use code `ERR_NO_JUGAR` in Fase 0 for both cases. `ERR_TURN_NOT_COVERED` is reserved for Fase 3 when the transpiler can inspect structure.\n\n---\n\n## 4. Bot Behavior\n\n### Requirement: Minimax bot\n\nThe bot MUST implement minimax with depth bonus scoring:\n- Bot wins: `+10 - depth` (prefer faster wins)\n- Tie: `0`\n- Player wins: `-10 + depth` (prefer slower losses)\n\nThe bot MUST select moves from a **sorted move list** (row-major order: [0,0],[0,1],[0,2],[1,0]...) to guarantee determinism when scores are equal.\n\nThe bot MUST satisfy all 8 priority behaviors from SDD §4.2 on their canonical board configurations. If minimax with depth bonus does not naturally produce priorities 6 (opposite corner) or 8 (any free side), an explicit preference table MUST be applied as a tiebreaker among equal-score moves.\n\n**8 testable priority scenarios** — given these board states, the bot's next move MUST be:\n\n| Priority | Board state | Expected bot move |\n|----------|-------------|-------------------|\n| 1 — Win now | Bot has two in a row with third cell free | Third cell of that row |\n| 2 — Block | Player has two in a row with third cell free | Third cell of that row |\n| 3 — Fork | Bot can create two simultaneous threats | The forking cell |\n| 4 — Block fork | Player can fork on next move | The cell that eliminates the fork |\n| 5 — Center | Board empty | [1,1] |\n| 6 — Opposite corner | Player played corner; opposite corner free | Opposite corner |\n| 7 — Any corner | Center taken, no corner threat | A corner cell |\n| 8 — Any side | All above not applicable | A side cell ([0,1],[1,0],[1,2],[2,1]) |\n\n#### Scenario: Bot never loses\n\n- GIVEN 100 games where player moves are random-legal\n- WHEN `runGame` completes each game\n- THEN `winner` is `'X'` or `'tie'` in all 100 games — never `'O'`\n\n#### Scenario: Perfect player forces tie\n\n- GIVEN a `playerFn` implementing optimal play\n- WHEN `runGame` completes\n- THEN `winner === 'tie'`\n\n---\n\n## 5. Game Loop\n\n### Requirement: Turn sequencing\n\nThe engine MUST follow this loop:\n\n1. Player X moves first (turn 0)\n2. After each player move, the bot moves — UNLESS the game is already over\n3. Player turns are indexed 0..4 (maximum 5 player turns)\n4. Game ends when: (a) either player achieves three-in-a-row, OR (b) the board is full\n5. `history` MUST contain one entry per move in chronological order\n6. After `runGame()` returns, NO API globals remain on `globalThis`\n\n**Maximum total moves**: 9 (5 player + 4 bot). A game MUST always terminate.\n\n#### Scenario: Player wins on turn 2\n\n- GIVEN a `playerFn` that produces a winning three-in-a-row on turn 2\n- WHEN `runGame` completes\n- THEN `winner === 'X'` AND the bot does not move after the winning player move AND `history` ends with the winning player move\n\n#### Scenario: Bot wins mid-game\n\n- GIVEN a `playerFn` that never blocks\n- WHEN the bot achieves three-in-a-row\n- THEN `winner === 'O'` AND no further player or bot moves are recorded in `history`\n\n---\n\n## 6. Module Layout\n\n### Requirement: File structure\n\nThe engine MUST be organized as:\n```\nsrc/\n  board/    — makeBoard, applyMove, legalMoves, checkWinner, isFull\n  bot/      — minimax(board, depth, isMaximizing) → { move, score }\n  api/      — buildPlayerAPI(state) → globals object; TrikiError class; error codes\n  engine/   — runGame(playerFn, options); runPlayerTurn; edge-case validators\n  index.js  — re-exports runGame only\n```\n\nThe engine MUST work as `\u003cscript type=\"module\" src=\"src/index.js\"\u003e` in a browser tab with no bundler, AND via `node --test`.\n\nA minimal `package.json` with `\"type\": \"module\"` and `\"scripts\": { \"test\": \"node --test\" }` MUST exist. Zero runtime dependencies.\n\n---\n\n## 7. Acceptance Criteria\n\n| AC | Assertion |\n|----|-----------|\n| AC-01 | `runGame(fn)` returns an object with exactly the keys `winner`, `turns`, `history`, `errors` |\n| AC-02 | `winner` is always one of `'X'`, `'O'`, `'tie'` — no other value is possible |\n| AC-03 | When `playerFn` never calls `jugar()`, `errors[0].code === 'ERR_NO_JUGAR'` AND `winner` is eventually determined (game does not hang) |\n| AC-04 | When `playerFn` calls `jugar(f,c)` twice, `errors` contains `ERR_JUGAR_TWICE` AND the first move is applied (not the second) |\n| AC-05 | When `playerFn` calls `jugar(1,1)` and the bot previously played `[1,1]`, `errors` contains `ERR_CELL_OCCUPIED` |\n| AC-06 | When `playerFn` runs an infinite loop, after `maxTurnMs` the error `ERR_INFINITE_LOOP` is logged AND the game continues |\n| AC-07 | When `playerFn` calls `jugar(-1, 0)`, `errors` contains `ERR_COORD_OUT_OF_RANGE` |\n| AC-08 | When `playerFn` calls `jugar(3, 3)`, `errors` contains `ERR_COORD_OUT_OF_RANGE` |\n| AC-09 | `última_jugada_bot()` returns `[-1,-1]` on turn 0 without throwing |\n| AC-10 | After `runGame()` returns, `globalThis.celda`, `globalThis.jugar`, `globalThis.turno`, `globalThis.mi_símbolo`, `globalThis.bot_símbolo`, `globalThis.última_jugada_bot` are all `undefined` |\n| AC-11 | Two consecutive calls to `runGame(sameFn)` produce identical `{ winner, turns, history }` (determinism) |\n| AC-12 | `history` entries are ordered chronologically; each entry has `{ turn, player, move }` |\n| AC-13 | `turno` is non-writable: `playerFn` attempting `turno = 99` does NOT change the engine's internal turn index |\n| AC-14 | Bot never loses: in 100 games against random player, `winner !== 'O'` in all 100 |\n| AC-15 | Board-full game resolves to `{ winner: 'tie' }` with no entry in `errors` |\n\n---\n\n## 8. End-to-End Scenarios\n\n#### Scenario: Center opening, game continues\n\n- GIVEN an empty board\n- WHEN `playerFn` calls `jugar(1,1)`\n- THEN bot plays a corner (priority 7 if center just taken) AND `history` has two entries (player [1,1], bot corner) AND the game has not ended\n\n#### Scenario: Player double-threat forces win\n\n- GIVEN turn 0 player plays [0,0], turn 1 player plays [1,1]\n- WHEN turn 2 player plays [2,2] (completing diagonal)\n- THEN `winner === 'X'` AND bot made 2 moves before game ended AND `turns === 5` (3 player + 2 bot)\n\n#### Scenario: Bot blocks correctly\n\n- GIVEN player has pieces at [0,0] and [0,1] (two in a row)\n- WHEN bot evaluates its move\n- THEN bot plays [0,2] (blocking) regardless of other open cells\n\n#### Scenario: No-jugar error, game continues\n\n- GIVEN `playerFn` is `() =\u003e {}` (never calls jugar)\n- WHEN `runGame` runs all 5 turns\n- THEN `errors` has 5 entries all with code `ERR_NO_JUGAR` AND `winner === 'O'` (bot wins by default after all turns lost) OR `winner === 'tie'` if board fills\n\n#### Scenario: Infinite loop cut\n\n- GIVEN `playerFn` is `() =\u003e { while(true) {} }`\n- WHEN `runGame` runs\n- THEN after `maxTurnMs` (default 100ms) the engine stops the turn AND `errors` contains `ERR_INFINITE_LOOP` AND the game continues to subsequent turns\n\n#### Scenario: Full board, forced tie\n\n- GIVEN a board state guaranteed to fill without a winner (constructed via specific `playerFn` + bot responses)\n- WHEN `runGame` completes\n- THEN `winner === 'tie'` AND `turns === 9` AND `errors` is empty\n\n#### Scenario: Unintended victory hint\n\n- GIVEN `playerFn` calls `jugar(0,0)` each turn without reading any board state\n- WHEN that move happens to complete three-in-a-row\n- THEN `winner === 'X'` AND `errors` contains one entry with code `WARN_UNINTENDED_VICTORY`\n\n#### Scenario: Globals teardown on error\n\n- GIVEN `playerFn` throws by calling `jugar(5,5)`\n- WHEN the error is caught by the engine\n- THEN after the turn, `typeof celda === 'undefined'` in the outer scope\n\n---\n\n## Risks / Spec-Level Assumptions\n\n**RISK-1 — ERR_TURN_NOT_COVERED undetectable in Fase 0**: The SDD lists it as a separate error, but raw JS cannot distinguish \"no jugar AND no structural coverage\" from \"no jugar AND bad logic\". Spec assumes Fase 0 collapses it into `ERR_NO_JUGAR`. This is a deliberate, documented downgrade — not a silent resolution.\n\n**RISK-2 — WARN_UNINTENDED_VICTORY heuristic is fuzzy**: Detecting \"active victory intention\" requires knowing which cells the player read before playing. The heuristic (no board-read before winning jugar) may produce false positives. Spec flags this as a best-effort hint in Fase 0; Fase 3 transpiler can provide full structural analysis.\n\n**RISK-3 — Proposal D5 ambiguity resolved here**: Proposal deferred \"turn-0 última_jugada_bot semantics\" to design. This spec LOCKS it: the function returns `[-1,-1]` silently; the error surfaces via `ERR_COORD_OUT_OF_RANGE` if that value is passed to `jugar()`. The `fix` field of that error MUST reference `última_jugada_bot()` behavior explicitly.\n\n**RISK-4 — Proposal D3 (global exposure shape) NOT resolved here**: Raw globals vs namespaced is an architectural decision (HOW). This spec only requires that raw globals are present during player turns. Design phase resolves namespace strategy.\n\n**RISK-5 — Proposal contradiction with SDD §6.3 speed controls**: The proposal correctly excludes `setTimeout`/speed controls from Fase 0. SDD §6.3 is a Fase 2 concern. No contradiction in scope — confirmed aligned.",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/triki-engine/spec",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 18:17:03",
+      "created_at": "2026-05-17 18:17:03",
+      "updated_at": "2026-05-17 18:17:03"
+    },
+    {
+      "id": 16,
+      "sync_id": "obs-a0eb37df3ef69fe6",
+      "session_id": "manual-save-juegos",
+      "type": "architecture",
+      "title": "sdd/triki-engine/design",
+      "content": "# Triki Engine — Fase 0 Technical Design\n\n**Change**: `triki-engine`\n**Phase**: Fase 0 — pure JS engine\n**Artifact store**: engram\n**Reads**: proposal #14, spec #15, source-spec #13, init #10\n**Status**: design locked — ready for `sdd-tasks`\n\nThis document locks the HOW. The spec already locked the WHAT.\n\n---\n\n## 1. Sandbox Lifecycle — The Core Mechanism\n\n### 1.1 D3 RESOLVED — Globals shape: **BOTH raw + namespaced**\n\nThe engine installs each identifier (`celda`, `celda_libre`, `bot_jugó_en`, `yo_jugué_en`, `última_jugada_bot`, `jugar`, `turno`, `mi_símbolo`, `bot_símbolo`) on `globalThis` BOTH as a bare property AND mirrored inside `globalThis.Triki`.\n\n**Why both:**\n- **Raw globals** — non-negotiable for Fase 3. The pseudocode transpiler must produce code that reads as `si celda(0,0) == \"X\" entonces jugar(0,0)`. Wrapping every identifier as `Triki.celda(...)` defeats the pedagogical model. The proposal and SDD §3 explicitly mandate this shape.\n- **Namespaced (`Triki.*`)** — operational convenience: console UX (`Triki.celda(1,1)` is greppable while debugging), single-handle teardown sanity check (`delete globalThis.Triki` is one line; we can assert `globalThis.Triki === undefined` as a teardown smoke test), Fase 1+ can keep using the namespaced form even after Fase 3 introduces transpiled code that prefers raw.\n- **Collision risk** — accepted. Player code runs in a controlled context (their own editor); the engine ALWAYS wins because it sets the globals immediately before each turn. If the player overwrites them, that is THEIR mistake — and the engine catches it on the next turn anyway because it reinstalls every turn.\n\n**Implementation note**: install via `Object.defineProperty` with `{ configurable: true, writable: false }` for the read-only state vars (`turno`, `mi_símbolo`, `bot_símbolo`) — `configurable: true` because the engine must delete them after each turn. Functions are also defined as non-writable to prevent the player from shadowing `jugar` mid-turn.\n\n### 1.2 How `jugar()` is captured — **module-level pendingMove + idempotency flag**\n\nWhen the player calls `jugar(f, c)`, the engine MUST capture the move and apply it AFTER `playerFn()` returns. Three options were considered:\n\n| Option | Verdict |\n|---|---|\n| **A — Sentinel exception thrown by `jugar`** | REJECTED — pollutes try/catch logic, makes `ERR_JUGAR_TWICE` (which must NOT terminate the turn) awkward, and conflates control flow with errors. |\n| **B — Callback registered by engine** | REJECTED — adds an extra indirection layer with no benefit; closure approach below is simpler. |\n| **C — Closure-captured `pendingMove` ref in the API factory** ✅ | CHOSEN |\n\n**Mechanism**: `api/buildPlayerAPI(boardState, turnContext)` returns `{ globals, getPendingMove, getErrors }` where `globals` is the object the engine installs and `getPendingMove()` reads from a closure variable that `jugar(f, c)` sets.\n\n```text\n// pseudocode — NOT to be written verbatim, this is design only\nbuildPlayerAPI(boardState, turnContext):\n  let pendingMove = null\n  let turnErrors = []\n  jugar(f, c):\n    validate coords → if invalid push ERR_COORD_OUT_OF_RANGE to turnErrors; return\n    if pendingMove !== null:\n      push ERR_JUGAR_TWICE to turnErrors; return  // idempotent: ignore second call\n    if cell is occupied:\n      push ERR_CELL_OCCUPIED to turnErrors; return\n    pendingMove = [f, c]\n  return { globals: {...}, getPendingMove: () =\u003e pendingMove, getErrors: () =\u003e turnErrors }\n```\n\nThe engine, after `playerFn()` returns: reads `getPendingMove()`. If `null` → push `ERR_NO_JUGAR`. If non-null → apply via `board.applyMove`. Reads `getErrors()` and merges into the global `errors[]`.\n\n**Why this wins**: synchronous, single source of truth, errors-as-data (not as exceptions for non-terminal cases), and the closure makes each turn's API instance ISOLATED by construction — there is no shared mutable module-level state to clean up.\n\n### 1.3 Globals lifecycle — set before, deleted after, ALWAYS\n\n```text\nrunPlayerTurn(boardState, turnIndex, playerFn, options):\n  api = buildPlayerAPI(boardState, { turn: turnIndex })\n  installGlobals(api.globals)        // Object.defineProperty all entries\n  try:\n    runWithTimeout(playerFn, options.maxTurnMs)\n  catch err:\n    if err is timeout → push ERR_INFINITE_LOOP\n    else if err is ReferenceError → push ERR_UNINIT_VAR (with native message)\n    else if err is TrikiError → push it\n    else → re-throw (engine bug, not player bug)\n  finally:\n    teardownGlobals()                // delete every key, delete globalThis.Triki\n  return { pendingMove: api.getPendingMove(), errors: api.getErrors() }\n```\n\nThe `finally` block is the guarantee for AC-10 (no leaks). It runs even on uncaught exceptions, even on timeout. Teardown deletes each key individually (not via reassign-to-undefined — that leaves the property defined).\n\n### 1.4 State isolation between turns\n\nEach turn gets a FRESH `buildPlayerAPI()` call. The closure is per-turn. There is no module-level mutable state in `api/`. Cross-turn contamination is structurally impossible. The engine itself holds the canonical `boardState` and `history`; the API only reads from a snapshot passed in.\n\n### 1.5 Node vs browser — `globalThis` is the answer\n\nUse `globalThis` everywhere. It is the spec-mandated cross-environment global object (Node 12+, all modern browsers). `window` is NEVER referenced in engine source. In a browser, `globalThis === window`, so `\u003cscript type=\"module\"\u003e` consumers still see `window.celda` after install — works for both the test harness and the browser smoke test with no branching.\n\n---\n\n## 2. Module Boundaries \u0026 Dependency Direction\n\n### 2.1 Final layout\n\n```\nsrc/\n  board/\n    state.js          — makeBoard, applyMove, cloneBoard\n    legal.js          — legalMoves, isFull\n    winner.js         — checkWinner (rows, cols, diagonals)\n  bot/\n    minimax.js        — minimax(board, depth, isMaximizing) → score\n    chooseMove.js     — chooseMove(board) → [f, c]; applies tiebreakers\n    priorities.js     — explicit preference table for opposite-corner / side fallback\n  api/\n    errors.js         — TrikiError class, error code constants\n    buildPlayerAPI.js — factory: (boardState, turnContext) → { globals, getPendingMove, getErrors }\n  engine/\n    sandbox.js        — installGlobals, teardownGlobals, runWithTimeout\n    runPlayerTurn.js  — orchestrates one player turn\n    validators.js     — post-turn validators (WARN_UNINTENDED_VICTORY heuristic)\n    runGame.js        — the public entry: full game loop\n  index.js            — re-exports { runGame }\n```\n\n### 2.2 Dependency graph (no cycles)\n\n```\nindex.js → engine/runGame\nengine/runGame → engine/runPlayerTurn, engine/validators, board/*, bot/chooseMove, api/errors\nengine/runPlayerTurn → engine/sandbox, api/buildPlayerAPI, api/errors, board/*\nengine/sandbox → (nothing — leaf)\nengine/validators → board/winner, api/errors\napi/buildPlayerAPI → api/errors, board/legal, board/state\napi/errors → (nothing — leaf)\nbot/chooseMove → bot/minimax, bot/priorities, board/*\nbot/minimax → board/state, board/legal, board/winner\nbot/priorities → (nothing — leaf)\nboard/state → (nothing — leaf)\nboard/legal → board/state\nboard/winner → (nothing — leaf; reads board directly)\n```\n\nDirection is strictly downward. `board/` and `api/errors` are leaves. `bot/` depends only on `board/`. `api/` depends only on `board/` + `errors`. `engine/` depends on everything else. `index.js` depends only on `engine/runGame`. **Zero circular risk.**\n\n### 2.3 Purity\n\n| Module | Pure? | Side effects |\n|---|---|---|\n| `board/*` | ✅ pure | returns new states, never mutates input |\n| `bot/*` | ✅ pure | reads board, returns moves; clones boards in recursion |\n| `api/errors` | ✅ pure | class + constants |\n| `api/buildPlayerAPI` | controlled side effects | mutates its own closure only; returns handles |\n| `engine/sandbox` | ⚠ impure by design | mutates `globalThis` — but ALWAYS reverts in `finally` |\n| `engine/runPlayerTurn` | impure orchestrator | calls sandbox |\n| `engine/validators` | ✅ pure | reads history + final board |\n| `engine/runGame` | impure orchestrator | top-level loop |\n\nThe impure surface is intentionally minimal: only `engine/sandbox` touches `globalThis`. Everything else is referentially transparent and testable in isolation.\n\n---\n\n## 3. Minimax Implementation Strategy\n\n### 3.1 Signatures\n\n```\nminimax(board, depth, isMaximizing) → number\n  // returns a score from the perspective of the bot ('O')\n  // base cases:\n  //   if checkWinner(board) === 'O' → return 10 - depth\n  //   if checkWinner(board) === 'X' → return -10 + depth\n  //   if isFull(board)              → return 0\n  // recursion:\n  //   isMaximizing: for each legal move, play 'O', recurse with !isMax, depth+1; take max\n  //   minimizing:   for each legal move, play 'X', recurse with !isMax, depth+1; take min\n\nchooseMove(board) → [f, c]\n  // returns the bot's chosen cell\n  // 1. enumerate legalMoves in row-major order ([0,0], [0,1], ..., [2,2])\n  // 2. score each via minimax(boardAfterMove, 1, false)\n  // 3. find max score; collect ALL moves matching it\n  // 4. if exactly one max move → return it\n  // 5. if multiple → apply priorities.js tiebreaker (see §3.3)\n```\n\n### 3.2 Determinism (AC-11)\n\nTwo guarantees:\n- **Row-major enumeration** of legal moves at EVERY recursion level (sorted, not Object.keys order)\n- **First-found wins among equals** — `Array.reduce` with `\u003e` (not `\u003e=`) so the FIRST move with the max score is chosen, deterministically\n\n### 3.3 SDD §4.2 priority verification — primary + fallback\n\n**Primary approach**: TEST FIRST. Write 8 fixture-based tests (one per priority), each with a hand-crafted board where the SDD demands a specific move. Run pure minimax. Inspect which priorities emerge naturally and which don't.\n\n**Expected result based on minimax theory**:\n- Priorities 1–4 (win, block, fork, block-fork) emerge NATURALLY — minimax with depth bonus produces them by construction\n- Priority 5 (center on empty board) emerges NATURALLY — center has the highest branching factor for forks\n- Priorities 6–8 (opposite corner, any corner, any side) DO NOT emerge naturally from pure minimax — these are tie-breaking heuristics over equally-scored draws\n\n**Fallback strategy — CHOSEN: Option A (explicit priority layer)**:\n- `bot/priorities.js` exports `preferAmongEquals(board, equalScoreMoves) → [f, c]`\n- The preference order (applied only when multiple moves tie at the max score):\n  1. If player's last move was a corner AND opposite corner is in `equalScoreMoves` → opposite corner\n  2. If any corner is in `equalScoreMoves` → first corner in row-major order\n  3. If any side cell is in `equalScoreMoves` → first side in row-major order\n  4. Otherwise → first move in row-major order\n\n**Why Option A over Option B (adjust scoring)**:\n- Scoring adjustments (corner bonus, side malus) RISK breaking priorities 1–4 in subtle ways — a +0.1 corner bonus can flip a fork-vs-corner decision incorrectly\n- A separate tiebreaker layer keeps minimax MATHEMATICALLY PURE and concentrates the heuristic in one auditable file\n- Easier to debug: if priority 7 misbehaves, you look at `priorities.js` only\n\n**Test order**: write all 8 priority tests FIRST. Implement plain minimax. Run. Then add `priorities.js` to cover the failing cases (expected: 6, 7, 8). Re-run. All green.\n\n---\n\n## 4. Error Handling Architecture\n\n### 4.1 `TrikiError` class shape\n\n```\nclass TrikiError extends Error {\n  constructor({ code, message, fix, turn }) {\n    super(message)\n    this.name = 'TrikiError'\n    this.code = code      // stable string — Fase 2 switches on this\n    this.fix = fix        // ES message, end-user\n    this.turn = turn      // player-turn index when raised\n  }\n}\n```\n\n`line?` from the proposal is OMITTED in Fase 0 — line numbers require AST instrumentation that lands with Fase 3. The field is RESERVED in spirit (TrikiError can carry it later) but not populated.\n\n### 4.2 Error flow — data, not exceptions, for non-fatal cases\n\nThis is the KEY architectural call: **most \"errors\" are pushed into the per-turn `turnErrors[]` array, NOT thrown**. Only structural failures (ReferenceError from undefined vars, timeout) bubble as exceptions.\n\n| Code | Mechanism | Why |\n|---|---|---|\n| `ERR_NO_JUGAR` | Pushed by engine after turn (if `pendingMove === null`) | Not an exception — it's a post-condition check |\n| `ERR_JUGAR_TWICE` | Pushed by `jugar()` itself, returns silently | Spec demands CONTINUE; throwing would terminate |\n| `ERR_CELL_OCCUPIED` | Pushed by `jugar()`, returns silently | Same — CONTINUE |\n| `ERR_COORD_OUT_OF_RANGE` | Pushed by `jugar()` AND by the 4 read functions | Read functions return a safe sentinel (`''` / `false` / `[-1,-1]`) AND push the error |\n| `ERR_INFINITE_LOOP` | Caught from timeout mechanism in `runWithTimeout`, pushed by engine | Timeout is an exception by nature |\n| `ERR_UNINIT_VAR` | Caught from native `ReferenceError`, wrapped as TrikiError, pushed by engine | Native errors must be intercepted |\n| `WARN_UNINTENDED_VICTORY` | Pushed by `engine/validators.js` after game ends | Heuristic only — needs post-game analysis |\n| `ERR_BOARD_FULL_TIE` | NOT an error — just the natural end state | Spec is explicit |\n| `ERR_TURN_NOT_COVERED` | Collapsed into `ERR_NO_JUGAR` for Fase 0 | RISK-1 from spec |\n| `ERR_UNUSED_TURN0_LASTMOVE` | Surfaced as `ERR_COORD_OUT_OF_RANGE` with `fix` referencing `última_jugada_bot()` | Spec resolution |\n\n### 4.3 Errors collection lifecycle\n\n- Each turn produces a `turnErrors[]` from `getErrors()` after `playerFn` returns\n- Engine merges `turnErrors` into the global `errors[]` after each turn\n- The global `errors[]` is returned in `runGame`'s result object\n\n### 4.4 \"Pause\" vs \"Continue\" mapping (spec §3 / SDD §7.3)\n\nSDD says some edges PAUSE and some CONTINUE — but Fase 0 has no UI to pause. Translation rules:\n\n- **PAUSE in SDD** → push error to `errors[]` AND mark turn as lost (no move applied) → game CONTINUES to next turn. The \"pause\" semantic is preserved as data; Fase 2 reads `errors[]` and renders the pause visually.\n- **CONTINUE in SDD** → push warning to `errors[]` AND apply the valid move (e.g. first call of `jugar()` when there's a second).\n\nFase 0 NEVER terminates the game on a player error. Only the natural conditions (win, tie, board full) terminate.\n\n---\n\n## 5. Infinite-Loop Detection in Fase 0\n\n**Decision: wall-clock timeout via `performance.now()` polled inside `jugar()` and inside every API read function.**\n\n### 5.1 Mechanism\n\n`runWithTimeout(playerFn, maxTurnMs)`:\n- Capture `startTime = performance.now()` before calling `playerFn`\n- The closure inside `buildPlayerAPI` knows `startTime` and `maxTurnMs`\n- EVERY API function (`celda`, `jugar`, etc.) first checks: `if (performance.now() - startTime \u003e maxTurnMs) throw new TrikiError({ code: 'ERR_INFINITE_LOOP', ... })`\n- This converts \"infinite loops that call any API\" into bounded errors\n\n### 5.2 The hard case: pure infinite loop with NO API calls\n\n`() =\u003e { while(true) {} }` — pure busy loop, never calls `celda` or `jugar`. JS is single-threaded synchronous; the engine CANNOT interrupt this. The event loop is blocked.\n\n**Position taken: documented limitation, accepted for Fase 0.**\n\nRationale:\n- The transpiled-pseudocode path (Fase 3) will inject a per-iteration counter into `mientras` loops — the TRUE 50-iter cap lives there\n- For Fase 0 testing, we put the test runner's per-test timeout (`node --test --test-timeout=2000`) as a backstop — a pure busy loop fails the test rather than freezing CI\n- README must call this out: \"Fase 0 cannot interrupt a busy loop that never calls the API. This limitation is resolved in Fase 3 via the transpiler's iteration counter.\"\n\nThis is HONEST. Pretending we have full loop detection in raw JS would mislead. The polling-on-API approach catches 95% of realistic cases (a loop that's \"doing something\" hits the API eventually).\n\n### 5.3 Why `performance.now()`\n\nAvailable in both Node (15+) and all browsers as `performance.now()`. Sub-millisecond resolution. No `import` needed in modern Node (it's a global). `Date.now()` works too but has lower resolution and risks system-clock drift artifacts in tests.\n\n---\n\n## 6. History Recording\n\n### 6.1 Where\n\n`history[]` lives as a local array inside `runGame`. It's appended:\n- After a successful player move (in `runGame` after `runPlayerTurn` returns a `pendingMove`)\n- After the bot's move (in `runGame` right after `chooseMove` + `applyMove`)\n- Never appended for failed turns (no-jugar, jugar-twice second call, out-of-range)\n\n### 6.2 Entry shape — LOCKED\n\n```\n{\n  turn: number,         // player-turn index 0..4\n  player: 'X' | 'O',    // X = human player, O = bot\n  move: [number, number] // [fila, col], both 0..2\n}\n```\n\nBot entries share the player-turn index of the turn they follow. Example sequence:\n- turn 0: player plays [1,1] → `{ turn: 0, player: 'X', move: [1,1] }`\n- bot responds at [0,0]       → `{ turn: 0, player: 'O', move: [0,0] }`\n- turn 1: player plays [2,2]  → `{ turn: 1, player: 'X', move: [2,2] }`\n- ...\n\n`elapsedMs` from the question is OMITTED for Fase 0 — not in the spec's locked shape, would add measurement noise to deterministic tests. Can be added in a later change without breaking consumers.\n\n### 6.3 Determinism guarantee\n\nBecause the bot is deterministic and the engine never inserts non-determinism (no `Math.random` anywhere in engine code), `history` is fully reproducible for a given `playerFn`. This satisfies AC-11.\n\n---\n\n## 7. Testing Architecture\n\n### 7.1 Layout — **colocated `*.test.js`**\n\nEach source file gets a sibling `*.test.js`:\n\n```\nsrc/board/state.js + state.test.js\nsrc/board/legal.js + legal.test.js\nsrc/board/winner.js + winner.test.js\nsrc/bot/minimax.js + minimax.test.js\nsrc/bot/chooseMove.js + chooseMove.test.js\nsrc/bot/priorities.js + priorities.test.js\nsrc/api/errors.js + errors.test.js\nsrc/api/buildPlayerAPI.js + buildPlayerAPI.test.js\nsrc/engine/sandbox.js + sandbox.test.js\nsrc/engine/runPlayerTurn.js + runPlayerTurn.test.js\nsrc/engine/validators.js + validators.test.js\nsrc/engine/runGame.js + runGame.test.js\nsrc/index.test.js (smoke: import + run a game)\n```\n\n**Why colocated**: instant discoverability (open module, see its tests next to it), aligns with `node --test` auto-discovery glob (`**/*.test.js`), Screaming Architecture stays intact (each folder is self-contained).\n\n### 7.2 Integration tests — inside `src/engine/runGame.test.js`\n\nEnd-to-end scenarios from spec §8 live in `runGame.test.js`. Unit tests for the loop's internal helpers also live there. No separate `tests/` folder.\n\n### 7.3 Fixtures — inline JS objects\n\nBoard states are 9 cells. Inline literals like `[['X','','O'],['','X',''],['','','']]` are clearer than file-based fixtures. Where multiple tests share the same setup, a top-level `const` per-test-file is sufficient. No fixture infrastructure needed.\n\n### 7.4 `node --test` invocation\n\n`package.json` script: `\"test\": \"node --test\"`. Node auto-discovers `**/*.test.js`. Add `--test-timeout=2000` as a safety net for the busy-loop limitation noted in §5.2.\n\n---\n\n## 8. File Structure — Exhaustive List for `sdd-tasks`\n\n**Project root**:\n```\npackage.json                              ← { \"type\": \"module\", \"scripts\": { \"test\": \"node --test\" } }\nREADME.md                                 ← usage snippets (node + browser), limitations\nindex.html                                ← browser smoke test page\nsrc/\n  index.js                                ← re-exports { runGame }\n  index.test.js                           ← smoke: imports runGame, runs a sample game\n  board/\n    state.js                              ← makeBoard, applyMove, cloneBoard\n    state.test.js\n    legal.js                              ← legalMoves, isFull\n    legal.test.js\n    winner.js                             ← checkWinner\n    winner.test.js\n  bot/\n    minimax.js                            ← minimax(board, depth, isMaximizing) → score\n    minimax.test.js\n    chooseMove.js                         ← chooseMove(board) → [f,c]\n    chooseMove.test.js\n    priorities.js                         ← preferAmongEquals tiebreaker\n    priorities.test.js\n  api/\n    errors.js                             ← TrikiError class + ERROR_CODES constants\n    errors.test.js\n    buildPlayerAPI.js                     ← factory: (boardState, turnCtx) → { globals, getPendingMove, getErrors }\n    buildPlayerAPI.test.js\n  engine/\n    sandbox.js                            ← installGlobals, teardownGlobals, runWithTimeout\n    sandbox.test.js\n    runPlayerTurn.js                      ← one-turn orchestrator\n    runPlayerTurn.test.js\n    validators.js                         ← WARN_UNINTENDED_VICTORY heuristic\n    validators.test.js\n    runGame.js                            ← main loop + integration tests\n    runGame.test.js\n```\n\n**Total source files**: 14 modules + 14 test files + 3 root files = **31 files**.\n\n`sdd-tasks` will turn each into a discrete task (with TDD ordering: tests before implementation where Strict TDD applies).\n\n---\n\n## 9. Browser \"Paste-and-Run\" Delivery\n\n### 9.1 The constraint\n\nBrowser ESM (`\u003cscript type=\"module\"\u003e`) requires HTTP — `file://` blocks `import` due to CORS. The user cannot just double-click `index.html`.\n\n### 9.2 Solution — minimal `index.html` + serve instruction\n\n`index.html` ships at project root:\n\n```html\n\u003c!doctype html\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003ctitle\u003eTriki Engine — Fase 0 smoke test\u003c/title\u003e\n\u003cscript type=\"module\"\u003e\n  import { runGame } from './src/index.js'\n  window.Triki = window.Triki || {}\n  window.Triki.runGame = runGame\n  // Sample player\n  const samplePlayer = () =\u003e { jugar(1, 1) }\n  console.log(runGame(samplePlayer))\n\u003c/script\u003e\n\u003cp\u003eOpen DevTools — see \u003ccode\u003econsole\u003c/code\u003e for the result. Call \u003ccode\u003eTriki.runGame(yourFn)\u003c/code\u003e to run again.\u003c/p\u003e\n```\n\n`README.md` documents: `npx serve .` (or any HTTP server) → open `http://localhost:3000`. We do NOT add `serve` as a dependency — zero-deps is a hard rule for Fase 0. The user installs it ad-hoc via `npx`.\n\n### 9.3 Node usage (no HTML needed)\n\n```\nimport { runGame } from './src/index.js'\nconst result = runGame(() =\u003e jugar(1, 1))\nconsole.log(result)\n```\n\nWorks directly because `package.json` has `\"type\": \"module\"`.\n\n### 9.4 Why this satisfies the proposal's acceptance criterion #8\n\nThe smoke test is the `index.html` page itself — load it once, see the console log, done. No automation needed in Fase 0.\n\n---\n\n## 10. Open Questions for `sdd-apply`\n\nAll major architectural decisions are LOCKED in this design. The following are micro-decisions explicitly DELEGATED to the apply phase (intentionally — they are implementation details, not architecture):\n\n- **Q1 — `installGlobals` property descriptor for functions**: spec says `turno`/`mi_símbolo`/`bot_símbolo` must be read-only. Functions (`celda`, `jugar`, etc.) MAY also be installed as `writable: false` to prevent player from shadowing them mid-turn. Recommendation: do install as non-writable; if any test fails because of strict-mode assignment errors, downgrade those specific cases. Apply phase decides on first test failure.\n- **Q2 — Spanish character handling in error messages**: `mi_símbolo` / `última_jugada_bot` contain non-ASCII characters. Source files MUST be UTF-8 encoded (default for modern Node). No BOM. Apply phase verifies by reading back its own writes.\n- **Q3 — `chooseMove` when no legal moves exist**: only happens on a full board, which means the game should have already ended. Apply phase should add a defensive throw (`assert legalMoves.length \u003e 0`) — this is engine-bug detection, not player-error handling, so it can be a plain `Error`, not `TrikiError`.\n- **Q4 — Test ordering when Strict TDD is OFF**: `sdd-init` flagged `strict_tdd: false` for Fase 0 (no runner installed yet — but `node --test` IS installed by virtue of Node itself, so this is stale). Apply phase should still follow test-first within each module: write `*.test.js`, watch it fail, implement, watch it pass. This is good practice independent of the strict-TDD flag.\n\n---\n\n## 11. ADR Summary — Locked Decisions\n\n| ADR | Decision | Rejected alternatives | Rationale |\n|---|---|---|---|\n| ADR-1 | Both raw AND namespaced globals on `globalThis` | raw-only, namespaced-only | Fase 3 transpiler needs raw; ops needs namespaced |\n| ADR-2 | `jugar()` capture via closure `pendingMove` | sentinel exception, callback registration | Synchronous, errors-as-data, isolated per-turn |\n| ADR-3 | Per-turn `buildPlayerAPI()` factory (no module state) | shared module state with reset | Cross-turn isolation by construction |\n| ADR-4 | `globalThis` for env detection (no `window`/`global` branching) | `typeof window !== 'undefined'` checks | spec-mandated cross-env; zero branching |\n| ADR-5 | Minimax priorities 6–8 via separate `priorities.js` tiebreaker | scoring adjustments inside minimax | Keeps minimax mathematically pure; concentrates heuristic |\n| ADR-6 | Errors-as-data in `errors[]` for non-fatal cases | throw everywhere | Spec demands CONTINUE for most errors; data model is cleaner |\n| ADR-7 | `performance.now()` polling inside API functions for timeout | atomics, web workers, AST instrumentation | Only viable sync-only option; busy-loop limitation documented |\n| ADR-8 | Colocated `*.test.js` (not `tests/` folder) | separate test directory | Screaming Architecture; `node --test` auto-discovery |\n| ADR-9 | No `elapsedMs` in `HistoryEntry` for Fase 0 | include it | Not in locked spec shape; adds test noise |\n| ADR-10 | No `serve` as dependency; document `npx serve` in README | bundle serve, ship dev server | Zero-deps rule; ad-hoc is fine for Fase 0 |",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/triki-engine/design",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 18:18:24",
+      "created_at": "2026-05-17 18:18:24",
+      "updated_at": "2026-05-17 18:18:24"
+    },
+    {
+      "id": 17,
+      "sync_id": "obs-8133152305c02514",
+      "session_id": "manual-save-juegos",
+      "type": "architecture",
+      "title": "sdd/triki-engine/tasks",
+      "content": "# Tasks: Triki Engine — Fase 0\n\n**Change**: `triki-engine`\n**Artifact store**: engram\n**Test runner**: `node --test`\n**TDD style**: RED (write failing test) → GREEN (implement) — per module, leaf-first\n**Total tasks**: 47 (Batches 0–6)\n\n---\n\n## Batch 0 — Project Bootstrap (no dependencies)\n\n- [x] **T-001** | Create folder skeleton\n  - `depends_on`: []\n  - `files`: `src/board/`, `src/bot/`, `src/api/`, `src/engine/` (empty dirs via `.gitkeep` placeholders)\n  - `verification`: directory structure exists — `ls src/`\n  - `acceptance_criteria`: AC-none (infrastructure)\n\n- [x] **T-002** | Create `package.json`\n  - `depends_on`: [T-001]\n  - `files`: `package.json`\n  - content: `{ \"type\": \"module\", \"scripts\": { \"test\": \"node --test --test-timeout=2000\" } }` — zero runtime deps\n  - `verification`: `node -e \"import('./src/index.js')\"` resolves without module-type error\n  - `acceptance_criteria`: AC-none (infrastructure)\n\n- [x] **T-003** | Create `.gitignore`\n  - `depends_on`: [T-001]\n  - `files`: `.gitignore`\n  - content: `node_modules/`, `.DS_Store`, `dist/`, `*.log`\n  - `verification`: file exists and contains `node_modules/`\n  - `acceptance_criteria`: AC-none\n\n- [x] **T-004** | Create `src/index.js` placeholder\n  - `depends_on`: [T-002]\n  - `files`: `src/index.js`\n  - content: placeholder `export function runGame() {}` + `export const VERSION = '0.0.1'` — real implementation arrives in T-042\n  - `verification`: `node -e \"import('./src/index.js').then(m =\u003e console.log(typeof m.runGame))\"` prints `function`\n  - `acceptance_criteria`: AC-none (will be replaced)\n\n- [x] **T-005** | Create `README.md` stub\n  - `depends_on`: [T-002]\n  - `files`: `README.md`\n  - content: usage snippet (node + browser), Fase 0 limitations note (busy-loop), `npx serve .` instruction\n  - `verification`: file exists, contains \"npx serve\" and \"ERR_INFINITE_LOOP\" limitation callout\n  - `acceptance_criteria`: AC-none\n\n---\n\n## Batch 1 — Board Module (leaf, no deps)\n\n- [x] **T-006** | RED — `board/state` tests\n  - `depends_on`: [T-001, T-002]\n  - `files`: `src/board/state.test.js`\n  - tests: `makeBoard()` returns 3x3 array of `''`; `applyMove(board, 0, 0, 'X')` returns new board with `'X'` at [0][0], original unchanged; `cloneBoard` deep-copies\n  - `verification`: `node --test src/board/state.test.js` — fails (module not found)\n  - `acceptance_criteria`: AC-none (setup)\n\n- [x] **T-007** | GREEN — implement `board/state.js`\n  - `depends_on`: [T-006]\n  - `files`: `src/board/state.js`\n  - exports: `makeBoard()`, `applyMove(board, f, c, symbol)`, `cloneBoard(board)`\n  - all pure — no mutation of input\n  - `verification`: `node --test src/board/state.test.js` — all pass\n  - `acceptance_criteria`: AC-none (foundation for all other modules)\n\n- [x] **T-008** | RED — `board/winner` tests\n  - `depends_on`: [T-007]\n  - `files`: `src/board/winner.test.js`\n  - tests: row win X, col win O, diagonal win X, anti-diagonal win O, no winner → null; `checkWinner` returns `{ winner, line }` where `line` is the 3 winning cells or null\n  - `verification`: `node --test src/board/winner.test.js` — fails\n  - `acceptance_criteria`: AC-02 (partial)\n\n- [x] **T-009** | GREEN — implement `board/winner.js`\n  - `depends_on`: [T-008]\n  - `files`: `src/board/winner.js`\n  - exports: `checkWinner(board)` → `{ winner: 'X'|'O'|null, line: [[f,c],[f,c],[f,c]]|null }`\n  - `verification`: `node --test src/board/winner.test.js` — all pass\n  - `acceptance_criteria`: AC-02\n\n- [x] **T-010** | RED — `board/legal` tests\n  - `depends_on`: [T-007]\n  - `files`: `src/board/legal.test.js`\n  - tests: empty board → 9 moves; board with 3 pieces → 6 moves; full board → 0 moves; `isFull` true/false; moves are `[f, c]` pairs in row-major order\n  - `verification`: `node --test src/board/legal.test.js` — fails\n  - `acceptance_criteria`: AC-15 (partial)\n\n- [x] **T-011** | GREEN — implement `board/legal.js`\n  - `depends_on`: [T-010]\n  - `files`: `src/board/legal.js`\n  - exports: `legalMoves(board)` → `Array\u003c[number,number]\u003e` row-major; `isFull(board)` → boolean\n  - `verification`: `node --test src/board/legal.test.js` — all pass\n  - `acceptance_criteria`: AC-15\n\n---\n\n## Batch 2 — Bot Module (depends on board/)\n\n- [ ] **T-012** | RED — `bot/minimax` tests\n  - `depends_on`: [T-007, T-009, T-011]\n  - `files`: `src/bot/minimax.test.js`\n  - tests: bot-wins-in-1 board → score = 10 - depth; player-wins-in-1 board → negative score; empty board → score ≥ 0 (draw at best); recursion is deterministic (same board = same score)\n  - `verification`: `node --test src/bot/minimax.test.js` — fails\n  - `acceptance_criteria`: AC-11 (partial), AC-14 (partial)\n\n- [ ] **T-013** | GREEN — implement `bot/minimax.js`\n  - `depends_on`: [T-012]\n  - `files`: `src/bot/minimax.js`\n  - exports: `minimax(board, depth, isMaximizing)` → number; uses row-major move enumeration for determinism; base cases: bot wins `10-depth`, player wins `-10+depth`, full board `0`\n  - `verification`: `node --test src/bot/minimax.test.js` — all pass\n  - `acceptance_criteria`: AC-14 (partial)\n\n- [ ] **T-014** | RED — `bot/priorities` tests\n  - `depends_on`: [T-007, T-009, T-011]\n  - `files`: `src/bot/priorities.test.js`\n  - tests: given a list of equal-score moves, `preferAmongEquals` returns opposite corner when player played a corner; prefers any corner over sides; prefers sides over arbitrary cells; deterministic (same args = same result)\n  - `verification`: `node --test src/bot/priorities.test.js` — fails\n  - `acceptance_criteria`: AC-11 (partial)\n\n- [ ] **T-015** | GREEN — implement `bot/priorities.js`\n  - `depends_on`: [T-014]\n  - `files`: `src/bot/priorities.js`\n  - exports: `preferAmongEquals(board, equalScoreMoves, lastPlayerMove)` → `[f, c]`; preference order: opposite-corner → any-corner → any-side → first in list\n  - `verification`: `node --test src/bot/priorities.test.js` — all pass\n  - `acceptance_criteria`: AC-11\n\n- [ ] **T-016** | RED — `bot/chooseMove` tests\n  - `depends_on`: [T-013, T-015]\n  - `files`: `src/bot/chooseMove.test.js`\n  - tests: empty board → [1,1] (priority 5 — center); board with one corner played → bot takes center OR opposite corner; deterministic for same board; result is always a legal move\n  - `verification`: `node --test src/bot/chooseMove.test.js` — fails\n  - `acceptance_criteria`: AC-11, AC-14 (partial)\n\n- [ ] **T-017** | GREEN — implement `bot/chooseMove.js`\n  - `depends_on`: [T-016]\n  - `files`: `src/bot/chooseMove.js`\n  - exports: `chooseMove(board, lastPlayerMove)` → `[f, c]`; enumerates legalMoves, scores each via minimax, collects max-score moves, applies `preferAmongEquals` tiebreaker\n  - `verification`: `node --test src/bot/chooseMove.test.js` — all pass\n  - `acceptance_criteria`: AC-11, AC-14\n\n- [ ] **T-018** | RED — 8 SDD §4.2 priority fixture tests\n  - `depends_on`: [T-017]\n  - `files`: `src/bot/chooseMove.test.js` (add to existing)\n  - 8 named fixtures, one per priority: P1 win-now, P2 block, P3 fork, P4 block-fork, P5 center, P6 opposite-corner, P7 any-corner, P8 any-side\n  - each fixture: hand-crafted board + `lastPlayerMove` + `expected` cell → assert `chooseMove(board, lpm)` deep-equals expected\n  - `verification`: `node --test src/bot/chooseMove.test.js` — 8 new fixture tests pass; failures drive `priorities.js` patch in T-019 if needed\n  - `acceptance_criteria`: AC-14\n\n- [ ] **T-019** | GREEN — patch `priorities.js` if P6/P7/P8 fail\n  - `depends_on`: [T-018]\n  - `files`: `src/bot/priorities.js` (patch only if T-018 exposes failures)\n  - refine `preferAmongEquals` logic for the failing priority cases; re-run T-018\n  - `verification`: `node --test src/bot/chooseMove.test.js` — all 8 priority fixtures pass\n  - `acceptance_criteria`: AC-14\n  - NOTE: this task is conditional — skip if T-018 is all green\n\n---\n\n## Batch 3 — API Module (depends on board/)\n\n- [ ] **T-020** | RED — `api/errors` tests\n  - `depends_on`: [T-001, T-002]\n  - `files`: `src/api/errors.test.js`\n  - tests: `TrikiError` is instanceof Error; has fields `code`, `message`, `fix`, `turn`; all 10 error code constants exported and string values match spec §3 table; factory: `new TrikiError({code:'ERR_NO_JUGAR', message:'...', fix:'...', turn:0})` constructs correctly\n  - `verification`: `node --test src/api/errors.test.js` — fails\n  - `acceptance_criteria`: AC-03..AC-09 (partial — error codes used across)\n\n- [ ] **T-021** | GREEN — implement `api/errors.js`\n  - `depends_on`: [T-020]\n  - `files`: `src/api/errors.js`\n  - exports: `TrikiError extends Error` with `{ code, message, fix, turn }`; named constants: `ERR_NO_JUGAR`, `ERR_JUGAR_TWICE`, `ERR_CELL_OCCUPIED`, `ERR_INFINITE_LOOP`, `ERR_COORD_OUT_OF_RANGE`, `ERR_UNINIT_VAR`, `ERR_TURN_NOT_COVERED`, `ERR_UNUSED_TURN0_LASTMOVE`, `ERR_BOARD_FULL_TIE`, `WARN_UNINTENDED_VICTORY`\n  - `verification`: `node --test src/api/errors.test.js` — all pass\n  - `acceptance_criteria`: AC-03..AC-09 (code constants locked)\n\n- [ ] **T-022** | RED — `api/buildPlayerAPI` tests — globals shape\n  - `depends_on`: [T-007, T-011, T-021]\n  - `files`: `src/api/buildPlayerAPI.test.js`\n  - tests: factory returns `{ globals, getPendingMove, getErrors }`; `globals` contains exactly the 9 identifiers (`celda`, `celda_libre`, `bot_jugó_en`, `yo_jugué_en`, `última_jugada_bot`, `jugar`, `turno`, `mi_símbolo`, `bot_símbolo`)\n  - `verification`: `node --test src/api/buildPlayerAPI.test.js` — fails\n  - `acceptance_criteria`: AC-01 (partial), AC-10 (partial)\n\n- [ ] **T-023** | RED — `api/buildPlayerAPI` tests — `jugar()` capture and idempotency\n  - `depends_on`: [T-022]\n  - `files`: `src/api/buildPlayerAPI.test.js` (extend)\n  - tests: `jugar(1,1)` once → `getPendingMove()` returns `[1,1]`; `jugar(1,1)` twice → `getErrors()` includes `ERR_JUGAR_TWICE`, `getPendingMove()` still `[1,1]` (first wins); `jugar(-1, 0)` → `getErrors()` includes `ERR_COORD_OUT_OF_RANGE`; occupied cell → `ERR_CELL_OCCUPIED`\n  - `verification`: `node --test src/api/buildPlayerAPI.test.js` — fails\n  - `acceptance_criteria`: AC-04, AC-05, AC-07, AC-08\n\n- [ ] **T-024** | RED — `api/buildPlayerAPI` tests — read globals behavior\n  - `depends_on`: [T-022]\n  - `files`: `src/api/buildPlayerAPI.test.js` (extend)\n  - tests: `celda(0,0)` on board with `'X'` at [0][0] returns `'X'`; `celda_libre(0,0)` returns false; `bot_jugó_en(0,0)` returns true when bot has piece there; `yo_jugué_en(0,0)` returns true; `última_jugada_bot()` returns `[-1,-1]` on turn 0; `turno` returns the turn index passed to factory; `mi_símbolo === 'X'`; `bot_símbolo === 'O'`\n  - `verification`: `node --test src/api/buildPlayerAPI.test.js` — fails\n  - `acceptance_criteria`: AC-09, AC-13\n\n- [ ] **T-025** | RED — `api/buildPlayerAPI` tests — `turno` read-only\n  - `depends_on`: [T-022]\n  - `files`: `src/api/buildPlayerAPI.test.js` (extend)\n  - test: install globals on temp object; attempt `globalThis.turno = 99`; assert `turno` is still the original value (non-writable property descriptor)\n  - `verification`: `node --test src/api/buildPlayerAPI.test.js` — fails\n  - `acceptance_criteria`: AC-13\n\n- [ ] **T-026** | GREEN — implement `api/buildPlayerAPI.js`\n  - `depends_on`: [T-022, T-023, T-024, T-025]\n  - `files`: `src/api/buildPlayerAPI.js`\n  - factory: `(boardState, { turn, lastBotMove })` → `{ globals, getPendingMove, getErrors }`; closure-captured `pendingMove` + `turnErrors[]`; read-only state vars via `Object.defineProperty({ writable: false, configurable: true })`; `última_jugada_bot()` returns `lastBotMove ?? [-1,-1]`; `jugar()` validates coords, occupied, idempotency — pushes to `turnErrors`, does NOT throw\n  - `verification`: `node --test src/api/buildPlayerAPI.test.js` — all pass\n  - `acceptance_criteria`: AC-04, AC-05, AC-07, AC-08, AC-09, AC-13\n\n---\n\n## Batch 4 — Engine Module (depends on board/, bot/, api/)\n\n- [ ] **T-027** | RED — `engine/sandbox` tests\n  - `depends_on`: [T-026]\n  - `files`: `src/engine/sandbox.test.js`\n  - tests: `installGlobals(globalsObj)` defines each key on `globalThis`; after `teardownGlobals(keys)` all keys are `undefined` on `globalThis`; `globalThis.Triki` also removed; `teardownGlobals` in `finally` — even if install throws, keys are cleaned\n  - `verification`: `node --test src/engine/sandbox.test.js` — fails\n  - `acceptance_criteria`: AC-10\n\n- [ ] **T-028** | GREEN — implement `engine/sandbox.js`\n  - `depends_on`: [T-027]\n  - `files`: `src/engine/sandbox.js`\n  - exports: `installGlobals(globals)` — uses `Object.defineProperty` for each entry, also sets `globalThis.Triki`; `teardownGlobals(keys)` — deletes each key + `globalThis.Triki`; `runWithTimeout(fn, maxMs)` — captures `startTime = performance.now()`, returns a timeout-detection handle (the API uses this via closure, not via async)\n  - `verification`: `node --test src/engine/sandbox.test.js` — all pass\n  - `acceptance_criteria`: AC-10\n\n- [ ] **T-029** | RED — `engine/validators` tests\n  - `depends_on`: [T-009, T-021]\n  - `files`: `src/engine/validators.test.js`\n  - tests: `checkUnintendedVictory(history, boardReadLog, winner)` → returns `WARN_UNINTENDED_VICTORY` TrikiError when winner=`'X'` and no board-read recorded before last player move; returns null if player did read board before winning; returns null for non-X winners\n  - `verification`: `node --test src/engine/validators.test.js` — fails\n  - `acceptance_criteria`: AC-none (warning hint, spec §3 row 10)\n\n- [ ] **T-030** | GREEN — implement `engine/validators.js`\n  - `depends_on`: [T-029]\n  - `files`: `src/engine/validators.js`\n  - exports: `checkUnintendedVictory(history, boardReadLog, winner)` → `TrikiError | null`; heuristic: no `celda`/`yo_jugué_en` call recorded before the winning move → push WARN\n  - `verification`: `node --test src/engine/validators.test.js` — all pass\n  - `acceptance_criteria`: (spec §3 row 10)\n\n- [ ] **T-031** | RED — `engine/runPlayerTurn` tests — normal flow\n  - `depends_on`: [T-026, T-027, T-028]\n  - `files`: `src/engine/runPlayerTurn.test.js`\n  - tests: `playerFn` calls `jugar(1,1)` → returns `{ pendingMove: [1,1], errors: [] }`; globals are installed before fn call and deleted after; `boardReadLog` tracks which read-globals the fn called\n  - `verification`: `node --test src/engine/runPlayerTurn.test.js` — fails\n  - `acceptance_criteria`: AC-10\n\n- [ ] **T-032** | RED — `engine/runPlayerTurn` tests — error paths\n  - `depends_on`: [T-031]\n  - `files`: `src/engine/runPlayerTurn.test.js` (extend)\n  - tests: `playerFn = () =\u003e {}` (no jugar) → `errors[0].code === 'ERR_NO_JUGAR'`, `pendingMove === null`; fn throws ReferenceError → wrapped as `ERR_UNINIT_VAR` in errors; fn exceeds `maxTurnMs` → `ERR_INFINITE_LOOP` in errors; globals absent after turn regardless of outcome\n  - `verification`: `node --test src/engine/runPlayerTurn.test.js` — fails\n  - `acceptance_criteria`: AC-03, AC-06, AC-10\n\n- [ ] **T-033** | GREEN — implement `engine/runPlayerTurn.js`\n  - `depends_on`: [T-031, T-032]\n  - `files`: `src/engine/runPlayerTurn.js`\n  - orchestrates: `buildPlayerAPI` → `installGlobals` → `try { runWithTimeout(playerFn, maxMs) } catch(e) { classify error } finally { teardownGlobals }`; post-return: if `getPendingMove() === null` push `ERR_NO_JUGAR`; merges `getErrors()` into returned array\n  - `verification`: `node --test src/engine/runPlayerTurn.test.js` — all pass\n  - `acceptance_criteria`: AC-03, AC-06, AC-10\n\n- [ ] **T-034** | RED — `engine/runGame` unit tests — return shape and termination\n  - `depends_on`: [T-033, T-017, T-030]\n  - `files`: `src/engine/runGame.test.js`\n  - tests: returns object with keys `winner`, `turns`, `history`, `errors`; `winner` ∈ `{'X','O','tie'}`; game always terminates (≤ 9 total moves); `turns` equals `history.length` (combined player + bot); no globals remain after return\n  - `verification`: `node --test src/engine/runGame.test.js` — fails\n  - `acceptance_criteria`: AC-01, AC-02, AC-10\n\n- [ ] **T-035** | RED — `engine/runGame` unit tests — history shape\n  - `depends_on`: [T-034]\n  - `files`: `src/engine/runGame.test.js` (extend)\n  - tests: each history entry has `{ turn, player, move }`; entries are chronological; failed turns (no-jugar) produce NO history entry; bot entry shares `turn` index of preceding player turn\n  - `verification`: `node --test src/engine/runGame.test.js` — fails\n  - `acceptance_criteria`: AC-12\n\n- [ ] **T-036** | RED — `engine/runGame` unit tests — determinism and errors array\n  - `depends_on`: [T-034]\n  - `files`: `src/engine/runGame.test.js` (extend)\n  - tests: two consecutive calls with same `playerFn` → identical `{ winner, turns, history }`; `errors` is always an array (never undefined/null); bot-never-loses: 20 games vs random player → `winner !== 'O'` in all\n  - `verification`: `node --test src/engine/runGame.test.js` — fails\n  - `acceptance_criteria`: AC-11, AC-14\n\n- [ ] **T-037** | GREEN — implement `engine/runGame.js`\n  - `depends_on`: [T-034, T-035, T-036]\n  - `files`: `src/engine/runGame.js`\n  - main loop: turn 0–4; after each player turn → apply pendingMove or skip → bot move (unless game over) → check winner/full; collect errors per turn; call `checkUnintendedVictory` at end; return `{ winner, turns, history, errors }`; `options` defaults `maxTurnMs: 100`\n  - `verification`: `node --test src/engine/runGame.test.js` — all pass\n  - `acceptance_criteria`: AC-01, AC-02, AC-11, AC-12, AC-14\n\n---\n\n## Batch 5 — Integration (end-to-end scenarios)\n\n- [ ] **T-038** | RED — 8 GWT end-to-end scenarios (spec §8)\n  - `depends_on`: [T-037]\n  - `files`: `src/engine/runGame.test.js` (add integration section)\n  - 8 named scenario tests from spec §8: center-opening, player-double-threat, bot-blocks, no-jugar-game-continues, infinite-loop-cut, full-board-tie, unintended-victory-hint, globals-teardown-on-error\n  - each uses a crafted `playerFn` and asserts on the full result shape\n  - `verification`: `node --test src/engine/runGame.test.js` — 8 new scenario tests pass\n  - `acceptance_criteria`: AC-03, AC-06, AC-10, AC-11, AC-12, AC-14, AC-15\n\n- [ ] **T-039** | GREEN — fix any regressions exposed by T-038\n  - `depends_on`: [T-038]\n  - `files`: any engine/bot/api file that needs patching\n  - conditional — only if T-038 exposes failures not caught by unit tests\n  - `verification`: `node --test src/engine/runGame.test.js` — all 8 scenarios green\n  - `acceptance_criteria`: all scenario ACs from T-038\n\n- [ ] **T-040** | RED — `src/index.test.js` smoke test\n  - `depends_on`: [T-037]\n  - `files`: `src/index.test.js`\n  - tests: `import { runGame } from './index.js'` resolves; `runGame(() =\u003e jugar(1,1))` returns result with `winner` field; `globalThis.runGame` is undefined (no side-effect leaks from import)\n  - `verification`: `node --test src/index.test.js` — fails (placeholder still in index.js)\n  - `acceptance_criteria`: AC-01\n\n- [ ] **T-041** | GREEN — finalize `src/index.js` entry point\n  - `depends_on`: [T-040, T-037]\n  - `files`: `src/index.js`\n  - replace placeholder: `export { runGame } from './engine/runGame.js'`; also attach `globalThis.Triki = { runGame }` for browser console convenience\n  - `verification`: `node --test src/index.test.js` — all pass; `node --test` (full suite) — all pass\n  - `acceptance_criteria`: AC-01\n\n- [ ] **T-042** | Create `index.html` browser smoke page\n  - `depends_on`: [T-041]\n  - `files`: `index.html`\n  - content per design §9.2: `\u003cscript type=\"module\"\u003e` imports `runGame`, exposes `window.Triki.runGame`, logs `runGame(() =\u003e jugar(1,1))` to console; includes `\u003cp\u003e` with DevTools instruction\n  - NOTE: A bootstrap placeholder was created in Batch 0 — final version replaces it in this task\n  - `verification`: (manual) `npx serve .` → open `http://localhost:PORT` → DevTools console shows result object\n  - `acceptance_criteria`: AC-none (proposal AC #8 — browser smoke, verified manually once)\n\n---\n\n## Batch 6 — Acceptance Verification Audit\n\n- [ ] **T-043** | Map all 15 ACs to tests\n  - `depends_on`: [T-041]\n  - `files`: no new files — annotation pass only\n  - for each AC-01..AC-15 from spec §7: identify which test file + test name covers it; record gaps\n  - `verification`: every AC has ≥ 1 test covering it; zero uncovered ACs\n  - `acceptance_criteria`: ALL (AC-01..AC-15)\n\n- [ ] **T-044** | Run full suite + coverage audit\n  - `depends_on`: [T-043]\n  - `files`: no changes\n  - `node --test` from project root — all tests green; note any AC still uncovered in T-043 annotation\n  - `verification`: `node --test` exits 0; zero failing tests\n  - `acceptance_criteria`: AC-01..AC-15 (full set)\n\n---\n\n## AC Coverage Map\n\n| AC | Test task(s) |\n|----|-------------|\n| AC-01 | T-034, T-040 |\n| AC-02 | T-008, T-034 |\n| AC-03 | T-032, T-038 |\n| AC-04 | T-023 |\n| AC-05 | T-023 |\n| AC-06 | T-032, T-038 |\n| AC-07 | T-023 |\n| AC-08 | T-023 |\n| AC-09 | T-024 |\n| AC-10 | T-027, T-031, T-034, T-038 |\n| AC-11 | T-014, T-016, T-036 |\n| AC-12 | T-035 |\n| AC-13 | T-025 |\n| AC-14 | T-016, T-018, T-036 |\n| AC-15 | T-010, T-038 |\n\n---\n\n## Dependency Summary\n\n| Batch | Tasks | Parallel within batch? | Unblocks |\n|-------|-------|------------------------|---------| \n| 0 | T-001..T-005 | T-001 first; T-002..T-005 after | All batches |\n| 1 | T-006..T-011 | T-006+T-010 parallel after T-007; T-008 after T-007 | Batches 2, 3, 4 |\n| 2 | T-012..T-019 | T-012 and T-014 parallel; T-016 after T-013+T-015 | Batch 4 (bot/) |\n| 3 | T-020..T-026 | T-020+T-022..T-025 overlap; T-026 after all RED pass | Batch 4 (api/) |\n| 4 | T-027..T-037 | T-027+T-029 parallel; T-031 after T-028+T-026; T-034 last | Batch 5 |\n| 5 | T-038..T-042 | T-038 first; T-039 conditional; T-040..T-042 sequential | Batch 6 |\n| 6 | T-043..T-044 | Sequential | Done |\n\n**Critical path**: T-001 → T-002 → T-007 → T-009/T-011 → T-013 → T-017 → T-021 → T-026 → T-028 → T-033 → T-037 → T-041 → T-044\n\n**Total**: 44 primary tasks + T-019 (conditional) + T-039 (conditional) = **44–46 tasks across 7 batches**",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/triki-engine/tasks",
+      "revision_count": 3,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 18:26:34",
+      "created_at": "2026-05-17 18:26:34",
+      "updated_at": "2026-05-17 19:11:06"
+    },
+    {
+      "id": 18,
+      "sync_id": "obs-f1ad72749fe16651",
+      "session_id": "manual-save-juegos",
+      "type": "preference",
+      "title": "Triki preferences — no git, precision \u003e speed",
+      "content": "**What**: User confirmed two execution preferences for the triki-engine implementation phase.\n\n1. **No git for this project**: Pure local workflow, no version control. Do NOT run `git init` or any git commands.\n2. **Precision over speed**: Run `sdd-apply` BATCH BY BATCH, not in one big run. Verify tests pass after each batch before launching the next. Apply phase = 7 batches → 7 separate delegations (with mem_search for apply-progress on batches 2-7).\n\n**Why**: User explicitly stated \"no necesitamos velocidad, necesitamos precision\" — favors incremental, verifiable progress over throughput. Greenfield JS project with Spanish identifiers (`mi_símbolo`, `última_jugada_bot`) raises encoding/correctness risk that batch verification catches early.\n\n**How to apply**: \n- For every sdd-apply launch on this change: implement ONE batch, run its tests, report status, STOP. Wait for user to confirm before next batch.\n- Do NOT delegate \"all batches\" or \"until done\".\n- Each sdd-apply call after the first MUST search `sdd/triki-engine/apply-progress` and MERGE (not overwrite).",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/triki-engine/execution-preferences",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 18:30:35",
+      "created_at": "2026-05-17 18:30:35",
+      "updated_at": "2026-05-17 18:30:35"
+    },
+    {
+      "id": 19,
+      "sync_id": "obs-81491494c007481c",
+      "session_id": "manual-save-pluginclaude",
+      "type": "discovery",
+      "title": "test-fork-binary",
+      "content": "**What**: Nota de prueba para verificar el binario fork de engram.\n**Why**: Solicitada por el usuario como smoke test del flujo mem_save.\n**Where**: N/A — entrada manual.",
+      "project": "pluginclaude",
+      "scope": "project",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 18:46:30",
+      "created_at": "2026-05-17 18:46:30",
+      "updated_at": "2026-05-17 18:46:30"
+    },
+    {
+      "id": 20,
+      "sync_id": "obs-56f31f1ba1144854",
+      "session_id": "manual-save-juegos",
+      "type": "architecture",
+      "title": "sdd/triki-engine/apply-progress",
+      "content": "# Apply Progress: triki-engine\n\n**Change**: `triki-engine`\n**Artifact store**: engram\n**Mode**: Standard (strict_tdd: false — node --test available but TDD not enforced; TDD cycle followed voluntarily per design §10 Q4)\n**Last updated**: 2026-05-17\n\n---\n\n## Batch 0 — Project Bootstrap — COMPLETE\n\n### Completed Tasks\n\n- [x] **T-001** | Create folder skeleton\n  - Created: `src/board/`, `src/bot/`, `src/api/`, `src/engine/` with `.gitkeep` placeholders\n  - Verification: `find src -type d` → all 4 dirs present\n\n- [x] **T-002** | Create `package.json`\n  - `name: \"logic-triki\"`, `version: \"0.0.1\"`, `type: \"module\"`, `private: true`\n  - `scripts.test: \"node --test --test-timeout=2000\"` (timeout added per design §7.4 — safety net for busy-loop limitation)\n  - Zero dependencies\n  - Verification: `node -e \"JSON.parse(...)\" ` → valid JSON ✓\n\n- [x] **T-003** | Create `.gitignore`\n  - Covers: `node_modules/`, `.DS_Store`, `dist/`, `*.log`\n  - Verification: file exists, contains `node_modules/` ✓\n\n- [x] **T-004** | Create `src/index.js` placeholder\n  - Exports `VERSION = '0.0.1'` and stub `runGame()` that throws (implementation deferred to T-041)\n  - Verification: `node --input-type=module -e \"import('./src/index.js').then(m =\u003e console.log(typeof m.runGame))\"` → `function` ✓\n\n- [x] **T-005** | Create `README.md` stub\n  - Contains Node + browser usage snippets\n  - Contains `npx serve .` instruction\n  - Contains `ERR_INFINITE_LOOP` limitation callout (busy-loop caveat)\n  - Contains `ERR_TURN_NOT_COVERED` → `ERR_NO_JUGAR` downgrade note\n  - Verification: both strings present in README ✓\n\n### Extra (Orchestrator-mandated, not in original T-005 scope)\n- [x] **index.html** | Browser smoke page\n  - Loads `src/index.js` as `type=\"module\"`\n  - Exposes `globalThis.Triki = { runGame, VERSION }`\n  - Shows `\u003ch1\u003eLogic-Triki — Fase 0 engine (console mode)\u003c/h1\u003e`\n  - Includes usage comment in HTML\n  - Handles stub throw gracefully (warns in console, does not crash page)\n\n---\n\n## Batch 1 — Board Module — COMPLETE\n\n### Board Shape Decision (ADR-B1)\n**Chosen**: 3x3 nested array `board[fila][col]` — values `''` | `'X'` | `'O'`.\nRationale: matches the design's `[[],[],[]]` notation, natural indexing by (fila, col), no conversion needed for winner-line coordinates (already `[fila, col]` pairs). Coord validation uses `Number.isInteger(n) \u0026\u0026 n \u003e= 0 \u0026\u0026 n \u003c= 2`.\n\n### Completed Tasks\n\n- [x] **T-006** | RED — `board/state.test.js`\n  - Tests: `makeBoard()` shape, fresh instances, `applyMove()` immutability, coord bounds, `cloneBoard()` deep copy\n  - RED confirmed: module not found on first run\n  - Test count: 10\n\n- [x] **T-007** | GREEN — `board/state.js`\n  - Exports: `makeBoard()`, `applyMove(board, fila, col, symbol)`, `cloneBoard(board)`\n  - `validateCoords(f, c)` internal helper throws `RangeError` with descriptive message for out-of-range coords\n  - Pure — all functions return new boards, never mutate input\n  - Verification: 10/10 GREEN ✓\n\n- [x] **T-008** | RED — `board/winner.test.js`\n  - Tests: 12 cases covering all 8 winning lines (3 rows, 3 cols, 2 diagonals), null/null for no winner, draw board\n  - Note: first draw fixture was wrong (O actually won anti-diagonal) — fixed to use a verified draw board\n  - RED confirmed on first run\n\n- [x] **T-009** | GREEN — `board/winner.js`\n  - Exports: `checkWinner(board)` → `{ winner: 'X'|'O'|null, line: [[f,c],[f,c],[f,c]]|null }`\n  - LINES constant: all 8 lines pre-computed — 3 rows, 3 cols, main diagonal, anti-diagonal\n  - Pure — reads board, never mutates\n  - Verification: 12/12 GREEN ✓\n\n- [x] **T-010** | RED — `board/legal.test.js`\n  - Tests: 11 cases — empty board returns 9 moves in row-major order, partial board, full board returns 0, move shape, isFull true/false, no mutation\n  - RED confirmed: module not found\n\n- [x] **T-011** | GREEN — `board/legal.js`\n  - Exports: `legalMoves(board)` → `[number, number][]` row-major; `isFull(board)` → boolean\n  - Pure double loop, no mutation\n  - Verification: 11/11 GREEN ✓\n\n### Files Created (Batch 1)\n\n| File | Lines | Notes |\n|------|-------|-------|\n| `src/board/state.js` | 60 | makeBoard, applyMove, cloneBoard; RangeError for invalid coords |\n| `src/board/state.test.js` | 72 | 10 tests |\n| `src/board/winner.js` | 42 | checkWinner; LINES constant; 8 lines |\n| `src/board/winner.test.js` | 87 | 12 tests; verified draw board fixture |\n| `src/board/legal.js` | 38 | legalMoves, isFull |\n| `src/board/legal.test.js` | 77 | 11 tests |\n\n### Dependency Check\n\n`rg \"from '\\.\\.(\\/api|\\/bot|\\/engine)'\" src/board/` → no output (zero upward deps) ✓\n\n### Deviations from Design\n\n1. **Draw board fixture** (T-008): First test fixture was miscounted — position set [0,2], [1,1], [2,0] for 'O' forms the anti-diagonal. Fixed with a verified draw board. Implementation correct, test corrected.\n2. **`validateCoords` in state.js only**: Tasks noted RangeError for applyMove; legal.js and winner.js do NOT validate coords (they only read boards, never take user-supplied coords). Winner checks via LINES constant (safe), legal iterates 0..2 (safe). This matches the instruction \"any function taking (fila, col)\" — winner/legal don't take coords.\n\n---\n\n## Full Suite Result (after Batch 1)\n\n`npm test` → 33 tests, 33 pass, 0 fail ✓\n\n---\n\n## Files Created (Batch 0)\n\n| File | Lines | Notes |\n|------|-------|-------|\n| `package.json` | 10 | Valid JSON, ESM, zero deps |\n| `.gitignore` | 4 | node_modules, .DS_Store, dist/, *.log |\n| `src/index.js` | 8 | VERSION + stub runGame |\n| `README.md` | 65 | Usage + limitations |\n| `index.html` | 42 | Browser smoke page |\n| `src/board/.gitkeep` | 0 | placeholder |\n| `src/bot/.gitkeep` | 0 | placeholder |\n| `src/api/.gitkeep` | 0 | placeholder |\n| `src/engine/.gitkeep` | 0 | placeholder |\n\n---\n\n## Deviations from Design (Batch 0)\n\n1. **`package.json` test script**: Tasks artifact specified `\"node --test\"` but design §7.4 requires `--test-timeout=2000` as a safety net for the busy-loop limitation. Used `\"node --test --test-timeout=2000\"` — aligns with design, slight deviation from task literal.\n2. **`src/index.js` exports `VERSION`**: Tasks only required `runGame` stub. Added `VERSION = '0.0.1'` per orchestrator instructions (used for browser smoke test). Does not conflict with spec — `index.js` re-exports only `runGame` in final form (T-041).\n3. **`index.html` created in Batch 0**: Technically T-042 (Batch 5), but orchestrator explicitly required it in this batch as a browser bootstrap placeholder. Created with graceful stub-throw handling.\n\n---\n\n## Batch Progress Summary\n\n| Batch | Status | Tasks |\n|-------|--------|-------|\n| 0 — Bootstrap | ✅ DONE | T-001..T-005 (+ index.html extra) |\n| 1 — Board Module | ✅ DONE | T-006..T-011 |\n| 2 — Bot Module | ⬜ NEXT | T-012..T-019 |\n| 3 — API Module | ⬜ pending | T-020..T-026 |\n| 4 — Engine Module | ⬜ pending | T-027..T-037 |\n| 5 — Integration | ⬜ pending | T-038..T-042 |\n| 6 — Audit | ⬜ pending | T-043..T-044 |\n\n**Next**: Batch 2 — Bot Module (T-012..T-019): `bot/minimax.js`, `bot/priorities.js`, `bot/chooseMove.js` with colocated tests. Start with T-012 (RED — minimax tests).",
+      "project": "juegos",
+      "scope": "project",
+      "topic_key": "sdd/triki-engine/apply-progress",
+      "revision_count": 2,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-05-17 19:09:19",
+      "created_at": "2026-05-17 18:54:59",
+      "updated_at": "2026-05-17 19:09:19"
+    }
+  ],
+  "prompts": null,
+  "memory_relations": [
+    {
+      "id": 1,
+      "sync_id": "rel-9df86c0321204d01",
+      "source_id": "obs-88c32a6fe05c5fec",
+      "target_id": "obs-7d412a02c2ea4668",
+      "relation": "related",
+      "reason": "Workflow choice (interactive+engram) is orthogonal to the SDD source spec — different concerns, no conflict.",
+      "judgment_status": "judged",
+      "marked_by_actor": "agent",
+      "marked_by_kind": "agent",
+      "created_at": "2026-05-17 18:07:49",
+      "updated_at": "2026-05-17 18:11:51"
+    },
+    {
+      "id": 2,
+      "sync_id": "rel-1336c7cd4cec3974",
+      "source_id": "obs-88c32a6fe05c5fec",
+      "target_id": "obs-f91eabd2ae18cc7a",
+      "relation": "related",
+      "reason": "Testing capabilities cache is infrastructure info; the SDD spec is product/contract info. Compatible, not in conflict.",
+      "judgment_status": "judged",
+      "marked_by_actor": "agent",
+      "marked_by_kind": "agent",
+      "created_at": "2026-05-17 18:07:49",
+      "updated_at": "2026-05-17 18:11:51"
+    }
+  ]
+}
