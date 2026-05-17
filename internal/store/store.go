@@ -406,11 +406,12 @@ type syncRelationPayload struct {
 
 // ExportData is the full serializable dump of the engram database.
 type ExportData struct {
-	Version      string        `json:"version"`
-	ExportedAt   string        `json:"exported_at"`
-	Sessions     []Session     `json:"sessions"`
-	Observations []Observation `json:"observations"`
-	Prompts      []Prompt      `json:"prompts"`
+	Version         string     `json:"version"`
+	ExportedAt      string     `json:"exported_at"`
+	Sessions        []Session  `json:"sessions"`
+	Observations    []Observation `json:"observations"`
+	Prompts         []Prompt   `json:"prompts"`
+	MemoryRelations []Relation `json:"memory_relations,omitempty"`
 }
 
 // ─── Config ──────────────────────────────────────────────────────────────────
@@ -3071,6 +3072,63 @@ func (s *Store) exportWithProjectScope(project string) (*ExportData, error) {
 		return nil, err
 	}
 
+	// Memory relations — both endpoints (source or target) belong to a kept observation.
+	// When project is empty, include all relations; when scoped, filter by project membership.
+	relQuery := `SELECT id, sync_id, ifnull(source_id,''), ifnull(target_id,''),
+		relation, ifnull(reason,''), ifnull(evidence,''), confidence, judgment_status,
+		ifnull(marked_by_actor,''), ifnull(marked_by_kind,''), ifnull(marked_by_model,''),
+		ifnull(session_id,''), created_at, updated_at
+	  FROM memory_relations`
+	relArgs := []any{}
+	if project != "" {
+		relQuery += `
+		  WHERE source_id IN (SELECT sync_id FROM observations WHERE ifnull(project,'') = ?)
+		     OR target_id IN (SELECT sync_id FROM observations WHERE ifnull(project,'') = ?)`
+		relArgs = append(relArgs, project, project)
+	}
+	relQuery += " ORDER BY id"
+	relRows, err := s.queryItHook(s.db, relQuery, relArgs...)
+	if err != nil {
+		return nil, fmt.Errorf("export relations: %w", err)
+	}
+	defer relRows.Close()
+	for relRows.Next() {
+		var r Relation
+		var reason, evidence, markedByActor, markedByKind, markedByModel, sessionID string
+		var confidence *float64
+		if err := relRows.Scan(
+			&r.ID, &r.SyncID, &r.SourceID, &r.TargetID,
+			&r.Relation, &reason, &evidence, &confidence, &r.JudgmentStatus,
+			&markedByActor, &markedByKind, &markedByModel, &sessionID,
+			&r.CreatedAt, &r.UpdatedAt,
+		); err != nil {
+			return nil, err
+		}
+		if reason != "" {
+			r.Reason = &reason
+		}
+		if evidence != "" {
+			r.Evidence = &evidence
+		}
+		r.Confidence = confidence
+		if markedByActor != "" {
+			r.MarkedByActor = &markedByActor
+		}
+		if markedByKind != "" {
+			r.MarkedByKind = &markedByKind
+		}
+		if markedByModel != "" {
+			r.MarkedByModel = &markedByModel
+		}
+		if sessionID != "" {
+			r.SessionID = &sessionID
+		}
+		data.MemoryRelations = append(data.MemoryRelations, r)
+	}
+	if err := relRows.Err(); err != nil {
+		return nil, err
+	}
+
 	return data, nil
 }
 
@@ -3138,6 +3196,28 @@ func (s *Store) Import(data *ExportData) (*ImportResult, error) {
 		result.PromptsImported++
 	}
 
+	// Import memory_relations (idempotent — sync_id is UNIQUE per schema).
+	// Relations reference observations by sync_id (text), not numeric id, so
+	// supersede chains remain intact even after id reassignment on re-import.
+	for _, r := range data.MemoryRelations {
+		res, err := s.execHook(tx,
+			`INSERT OR IGNORE INTO memory_relations
+				(sync_id, source_id, target_id, relation, reason, evidence, confidence,
+				 judgment_status, marked_by_actor, marked_by_kind, marked_by_model,
+				 session_id, created_at, updated_at)
+			 VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+			r.SyncID, r.SourceID, r.TargetID, r.Relation,
+			r.Reason, r.Evidence, r.Confidence,
+			r.JudgmentStatus, r.MarkedByActor, r.MarkedByKind, r.MarkedByModel,
+			r.SessionID, r.CreatedAt, r.UpdatedAt,
+		)
+		if err != nil {
+			return nil, fmt.Errorf("import relation %s: %w", r.SyncID, err)
+		}
+		n, _ := res.RowsAffected()
+		result.RelationsImported += int(n)
+	}
+
 	if err := s.commitHook(tx); err != nil {
 		return nil, fmt.Errorf("import: commit: %w", err)
 	}
@@ -3149,6 +3229,7 @@ type ImportResult struct {
 	SessionsImported     int `json:"sessions_imported"`
 	ObservationsImported int `json:"observations_imported"`
 	PromptsImported      int `json:"prompts_imported"`
+	RelationsImported    int `json:"relations_imported"`
 }
 
 // ─── Sync Chunk Tracking ─────────────────────────────────────────────────────

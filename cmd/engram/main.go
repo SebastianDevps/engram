@@ -1190,8 +1190,23 @@ func cmdStats(cfg store.Config) {
 
 func cmdExport(cfg store.Config) {
 	outFile := "engram-export.json"
-	if len(os.Args) > 2 {
-		outFile = os.Args[2]
+	project := ""
+
+	// Two-pass: first scan for --project, then take first positional arg as outfile.
+	positional := []string{}
+	for i := 2; i < len(os.Args); i++ {
+		switch os.Args[i] {
+		case "--project":
+			if i+1 < len(os.Args) {
+				project = os.Args[i+1]
+				i++
+			}
+		default:
+			positional = append(positional, os.Args[i])
+		}
+	}
+	if len(positional) > 0 {
+		outFile = positional[0]
 	}
 
 	s, err := storeNew(cfg)
@@ -1200,9 +1215,24 @@ func cmdExport(cfg store.Config) {
 	}
 	defer s.Close()
 
-	data, err := storeExport(s)
-	if err != nil {
-		fatal(err)
+	var data *store.ExportData
+	if project != "" {
+		data, err = s.ExportProject(project)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "export: project %q not found or error: %v\n", project, err)
+			exitFunc(1)
+			return
+		}
+		if len(data.Sessions) == 0 && len(data.Observations) == 0 {
+			fmt.Fprintf(os.Stderr, "export: no data found for project %q\n", project)
+			exitFunc(1)
+			return
+		}
+	} else {
+		data, err = storeExport(s)
+		if err != nil {
+			fatal(err)
+		}
 	}
 
 	out, err := jsonMarshalIndent(data, "", "  ")
@@ -1215,9 +1245,10 @@ func cmdExport(cfg store.Config) {
 	}
 
 	fmt.Printf("Exported to %s\n", outFile)
-	fmt.Printf("  Sessions:     %d\n", len(data.Sessions))
-	fmt.Printf("  Observations: %d\n", len(data.Observations))
-	fmt.Printf("  Prompts:      %d\n", len(data.Prompts))
+	fmt.Printf("  Sessions:        %d\n", len(data.Sessions))
+	fmt.Printf("  Observations:    %d\n", len(data.Observations))
+	fmt.Printf("  Prompts:         %d\n", len(data.Prompts))
+	fmt.Printf("  MemoryRelations: %d\n", len(data.MemoryRelations))
 }
 
 func cmdImport(cfg store.Config) {
@@ -1249,9 +1280,10 @@ func cmdImport(cfg store.Config) {
 	}
 
 	fmt.Printf("Imported from %s\n", inFile)
-	fmt.Printf("  Sessions:     %d\n", result.SessionsImported)
-	fmt.Printf("  Observations: %d\n", result.ObservationsImported)
-	fmt.Printf("  Prompts:      %d\n", result.PromptsImported)
+	fmt.Printf("  Sessions:        %d\n", result.SessionsImported)
+	fmt.Printf("  Observations:    %d\n", result.ObservationsImported)
+	fmt.Printf("  Prompts:         %d\n", result.PromptsImported)
+	fmt.Printf("  MemoryRelations: %d\n", result.RelationsImported)
 }
 
 func cmdSync(cfg store.Config) {
