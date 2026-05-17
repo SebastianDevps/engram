@@ -1,6 +1,7 @@
 package main
 
 import (
+	"database/sql"
 	"encoding/json"
 	"os"
 	"path/filepath"
@@ -500,6 +501,71 @@ func TestProjectFlagEqualsForm(t *testing.T) {
 	}
 }
 
+// TestNullEndpointRelationInScopedExport verifies NEW-1 fix:
+// A relation with NULL source_id and an in-project target must appear in a scoped export.
+// Before the fix, NULL IN (subquery) evaluated to NULL (not FALSE), silently excluding the row.
+func TestNullEndpointRelationInScopedExport(t *testing.T) {
+	workDir := t.TempDir()
+	withCwd(t, workDir)
+	cfg := testConfig(t)
+	stubExitWithPanic(t)
+
+	const scopeProject = "nullendpointproject"
+
+	// Seed a target observation inside the scoped project.
+	syncIDtarget := seedObsAndGetSyncID(t, cfg, "sess-nullep", scopeProject, "NullEP-Target")
+
+	// Insert a relation with a truly NULL source_id using raw SQL.
+	// SaveRelation stores '' as empty string, not NULL; we need a real NULL to exercise the bug.
+	rawDB, err := sql.Open("sqlite", filepath.Join(cfg.DataDir, "engram.db"))
+	if err != nil {
+		t.Fatalf("open raw DB for seed: %v", err)
+	}
+	_, err = rawDB.Exec(`
+		INSERT INTO memory_relations (sync_id, source_id, target_id, relation, judgment_status, created_at, updated_at)
+		VALUES ('rel-nullep-source01', NULL, ?, 'pending', 'pending', datetime('now'), datetime('now'))
+	`, syncIDtarget)
+	rawDB.Close()
+	if err != nil {
+		t.Fatalf("seed NULL source_id relation: %v", err)
+	}
+
+	// Export scoped to the project.
+	outFile := filepath.Join(workDir, "nullep-export.json")
+	withArgs(t, "engram", "export", "--project", scopeProject, outFile)
+	_, stderr, recovered := captureOutputAndRecover(t, func() { cmdExport(cfg) })
+	if recovered != nil {
+		t.Fatalf("export panicked: %v", recovered)
+	}
+	if stderr != "" {
+		t.Fatalf("export stderr: %q", stderr)
+	}
+
+	// Parse the export and assert the null-endpoint relation IS present.
+	raw, err := os.ReadFile(outFile)
+	if err != nil {
+		t.Fatalf("read export file: %v", err)
+	}
+	var data struct {
+		MemoryRelations []struct {
+			SyncID string `json:"sync_id"`
+		} `json:"memory_relations"`
+	}
+	if err := json.Unmarshal(raw, &data); err != nil {
+		t.Fatalf("unmarshal export: %v", err)
+	}
+	found := false
+	for _, r := range data.MemoryRelations {
+		if r.SyncID == "rel-nullep-source01" {
+			found = true
+			break
+		}
+	}
+	if !found {
+		t.Errorf("relation rel-nullep-source01 (NULL source_id, in-project target) missing from scoped export — NULL IN (subquery) NULL semantics bug may still be present")
+	}
+}
+
 // TestNullSourceIDRoundTrip verifies Engram L1 fix:
 // a relation with NULL source_id must survive export→import with source_id still NULL,
 // not coerced to an empty string that breaks IS NULL queries.
@@ -554,13 +620,30 @@ func TestNullSourceIDRoundTrip(t *testing.T) {
 	if err != nil {
 		t.Fatalf("GetRelation after import: %v", err)
 	}
-	// SourceID must be empty string (Go represents NULL as empty string via ifnull scan).
-	// The important invariant: the row IS queryable by GetRelation, confirming import succeeded.
+	// TargetID must survive the round-trip intact.
 	if rel.TargetID != syncIDtarget {
 		t.Errorf("target_id after round-trip = %q, want %q", rel.TargetID, syncIDtarget)
 	}
-	// Verify the stored source_id round-tripped correctly (empty string, not corrupted).
-	if rel.SourceID != "" {
-		t.Errorf("source_id after round-trip = %q, want empty string (NULL→''→NULLIF→NULL)", rel.SourceID)
+
+	// Strengthen L1 assertion: verify the DB column is truly NULL, not an empty string.
+	// GetRelation uses ifnull(source_id,'') so it cannot distinguish NULL from ''.
+	// Raw SQL on the freshStore DB is the only reliable way.
+	fresh.Close()
+	rawDB, err := sql.Open("sqlite", filepath.Join(freshCfg.DataDir, "engram.db"))
+	if err != nil {
+		t.Fatalf("open raw DB: %v", err)
+	}
+	defer rawDB.Close()
+
+	var nullCount int
+	err = rawDB.QueryRow(
+		"SELECT count(*) FROM memory_relations WHERE source_id IS NULL AND sync_id = ?",
+		"rel-null-source01",
+	).Scan(&nullCount)
+	if err != nil {
+		t.Fatalf("raw SQL query: %v", err)
+	}
+	if nullCount != 1 {
+		t.Errorf("imported relation source_id: want NULL in DB (count=1), got count=%d — NULLIF fix may be reverted", nullCount)
 	}
 }

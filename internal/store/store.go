@@ -3096,11 +3096,13 @@ func (s *Store) exportWithProjectScope(project string) (*ExportData, error) {
 	  FROM memory_relations`
 	relArgs := []any{}
 	if project != "" {
-		// AND (not OR): both endpoints must belong to the scoped project.
-		// OR would export relations that bridge two projects, leaking the other project's sync_ids.
+		// Preserve H1: exclude relations that bridge two different projects (cross-project leakage).
+		// NULL endpoint is not "another project" — it means no project (orphan/unlinked).
+		// NULL IN (subquery) evaluates to NULL in SQL, not FALSE, which silently drops the row.
+		// Fix: treat NULL endpoint as always in-scope so orphan relations are preserved.
 		relQuery += `
-		  WHERE source_id IN (SELECT sync_id FROM observations WHERE ifnull(project,'') = ?)
-		   AND target_id IN (SELECT sync_id FROM observations WHERE ifnull(project,'') = ?)`
+		  WHERE (source_id IS NULL OR source_id IN (SELECT sync_id FROM observations WHERE ifnull(project,'') = ?))
+		    AND (target_id IS NULL OR target_id IN (SELECT sync_id FROM observations WHERE ifnull(project,'') = ?))`
 		relArgs = append(relArgs, project, project)
 	}
 	relQuery += " ORDER BY id"
