@@ -256,6 +256,87 @@ func TestRoundTripPreservesSupersedeChainsViaRelations(t *testing.T) {
 	}
 }
 
+// TestScopedExportEmptyRelationsKeyAlwaysPresent verifies F1 regression:
+// when no relations exist for the project, "memory_relations" key must still be
+// present in the JSON output (not absent due to omitempty) and must be an empty array.
+func TestScopedExportEmptyRelationsKeyAlwaysPresent(t *testing.T) {
+	workDir := t.TempDir()
+	withCwd(t, workDir)
+	cfg := testConfig(t)
+	stubExitWithPanic(t)
+
+	seedObsAndGetSyncID(t, cfg, "sess-nrel", "nrelproject", "NoRelObs")
+
+	outFile := filepath.Join(workDir, "nrel-export.json")
+	withArgs(t, "engram", "export", "--project", "nrelproject", outFile)
+	_, stderr, recovered := captureOutputAndRecover(t, func() { cmdExport(cfg) })
+	if recovered != nil || stderr != "" {
+		t.Fatalf("export failed: panic=%v stderr=%q", recovered, stderr)
+	}
+
+	raw, err := os.ReadFile(outFile)
+	if err != nil {
+		t.Fatalf("read export file: %v", err)
+	}
+
+	// Check JSON key presence via raw map — not struct (struct always has field).
+	var rawMap map[string]any
+	if err := json.Unmarshal(raw, &rawMap); err != nil {
+		t.Fatalf("parse export as raw map: %v", err)
+	}
+	val, ok := rawMap["memory_relations"]
+	if !ok {
+		t.Fatal("memory_relations key must be present in JSON even when empty (omitempty removed)")
+	}
+	arr, isSlice := val.([]any)
+	if !isSlice {
+		t.Fatalf("memory_relations must be a JSON array, got %T", val)
+	}
+	if len(arr) != 0 {
+		t.Errorf("expected empty memory_relations array, got %d entries", len(arr))
+	}
+}
+
+// TestIdempotentReImportNoObservationDuplicates verifies F3+F4 regression:
+// importing the same file twice must not increase the observation count.
+func TestIdempotentReImportNoObservationDuplicates(t *testing.T) {
+	workDir := t.TempDir()
+	withCwd(t, workDir)
+	cfg := testConfig(t)
+	stubExitWithPanic(t)
+
+	seedObsAndGetSyncID(t, cfg, "sess-obsdup", "dupproject", "Dup-A")
+
+	outFile := filepath.Join(workDir, "dup-export.json")
+	withArgs(t, "engram", "export", "--project", "dupproject", outFile)
+	_, _, recovered := captureOutputAndRecover(t, func() { cmdExport(cfg) })
+	if recovered != nil {
+		t.Fatalf("export failed: panic=%v", recovered)
+	}
+
+	freshCfg := testConfig(t)
+
+	// First import.
+	withArgs(t, "engram", "import", outFile)
+	stdout1, stderr1, rec1 := captureOutputAndRecover(t, func() { cmdImport(freshCfg) })
+	if rec1 != nil || stderr1 != "" {
+		t.Fatalf("first import failed: panic=%v stderr=%q stdout=%q", rec1, stderr1, stdout1)
+	}
+	if !strings.Contains(stdout1, "Observations:    1") {
+		t.Errorf("first import should insert 1 observation, stdout=%q", stdout1)
+	}
+
+	// Second import — same file, must be a no-op for observations.
+	withArgs(t, "engram", "import", outFile)
+	stdout2, stderr2, rec2 := captureOutputAndRecover(t, func() { cmdImport(freshCfg) })
+	if rec2 != nil || stderr2 != "" {
+		t.Fatalf("second import failed: panic=%v stderr=%q stdout=%q", rec2, stderr2, stdout2)
+	}
+	if !strings.Contains(stdout2, "Observations:    0") {
+		t.Errorf("second import should insert 0 observations (idempotent), stdout=%q", stdout2)
+	}
+}
+
 // TestIdempotentReImportNoRelationDuplicates verifies S4.2:
 // importing the same file twice must not increase the relation count.
 func TestIdempotentReImportNoRelationDuplicates(t *testing.T) {

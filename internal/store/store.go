@@ -411,7 +411,7 @@ type ExportData struct {
 	Sessions        []Session  `json:"sessions"`
 	Observations    []Observation `json:"observations"`
 	Prompts         []Prompt   `json:"prompts"`
-	MemoryRelations []Relation `json:"memory_relations,omitempty"`
+	MemoryRelations []Relation `json:"memory_relations"`
 }
 
 // ─── Config ──────────────────────────────────────────────────────────────────
@@ -956,6 +956,20 @@ func (s *Store) migrate() error {
 		return err
 	}
 	if _, err := s.execHook(s.db, `UPDATE user_prompts SET sync_id = 'prompt-' || lower(hex(randomblob(16))) WHERE sync_id IS NULL OR sync_id = ''`); err != nil {
+		return err
+	}
+	// Partial UNIQUE indexes on sync_id — safe for rows where sync_id is NULL/empty (pre-backfill).
+	// Without these, Import() cannot use INSERT OR IGNORE to achieve idempotency for observations/prompts.
+	if _, err := s.execHook(s.db, `
+		CREATE UNIQUE INDEX IF NOT EXISTS idx_obs_sync_id_unique ON observations(sync_id)
+		  WHERE sync_id IS NOT NULL AND sync_id != '';
+	`); err != nil {
+		return err
+	}
+	if _, err := s.execHook(s.db, `
+		CREATE UNIQUE INDEX IF NOT EXISTS idx_prompts_sync_id_unique ON user_prompts(sync_id)
+		  WHERE sync_id IS NOT NULL AND sync_id != '';
+	`); err != nil {
 		return err
 	}
 	if _, err := s.execHook(s.db, `INSERT OR IGNORE INTO sync_state (target_key, lifecycle, updated_at) VALUES ('cloud', 'idle', datetime('now'))`); err != nil {
@@ -2972,8 +2986,9 @@ func (s *Store) ExportProject(project string) (*ExportData, error) {
 
 func (s *Store) exportWithProjectScope(project string) (*ExportData, error) {
 	data := &ExportData{
-		Version:    "0.1.0",
-		ExportedAt: Now(),
+		Version:         "0.1.0",
+		ExportedAt:      Now(),
+		MemoryRelations: []Relation{},
 	}
 
 	sessionQuery := "SELECT id, project, directory, started_at, ended_at, summary FROM sessions"
@@ -3155,10 +3170,11 @@ func (s *Store) Import(data *ExportData) (*ImportResult, error) {
 		result.SessionsImported += int(n)
 	}
 
-	// Import observations (use new IDs — AUTOINCREMENT)
+	// Import observations — idempotent via INSERT OR IGNORE keyed on sync_id UNIQUE index.
+	// Requires idx_obs_sync_id_unique partial index (observations with non-empty sync_id).
 	for _, obs := range data.Observations {
-		_, err := s.execHook(tx,
-			`INSERT INTO observations (sync_id, session_id, type, title, content, tool_name, project, scope, topic_key, normalized_hash, revision_count, duplicate_count, last_seen_at, created_at, updated_at, deleted_at)
+		res, err := s.execHook(tx,
+			`INSERT OR IGNORE INTO observations (sync_id, session_id, type, title, content, tool_name, project, scope, topic_key, normalized_hash, revision_count, duplicate_count, last_seen_at, created_at, updated_at, deleted_at)
 			 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
 			normalizeExistingSyncID(obs.SyncID, "obs"),
 			obs.SessionID,
@@ -3180,20 +3196,23 @@ func (s *Store) Import(data *ExportData) (*ImportResult, error) {
 		if err != nil {
 			return nil, fmt.Errorf("import observation %d: %w", obs.ID, err)
 		}
-		result.ObservationsImported++
+		n, _ := res.RowsAffected()
+		result.ObservationsImported += int(n)
 	}
 
-	// Import prompts
+	// Import prompts — idempotent via INSERT OR IGNORE keyed on sync_id UNIQUE index.
+	// Requires idx_prompts_sync_id_unique partial index (prompts with non-empty sync_id).
 	for _, p := range data.Prompts {
-		_, err := s.execHook(tx,
-			`INSERT INTO user_prompts (sync_id, session_id, content, project, created_at)
+		res, err := s.execHook(tx,
+			`INSERT OR IGNORE INTO user_prompts (sync_id, session_id, content, project, created_at)
 			 VALUES (?, ?, ?, ?, ?)`,
 			normalizeExistingSyncID(p.SyncID, "prompt"), p.SessionID, p.Content, p.Project, p.CreatedAt,
 		)
 		if err != nil {
 			return nil, fmt.Errorf("import prompt %d: %w", p.ID, err)
 		}
-		result.PromptsImported++
+		n, _ := res.RowsAffected()
+		result.PromptsImported += int(n)
 	}
 
 	// Import memory_relations (idempotent — sync_id is UNIQUE per schema).
